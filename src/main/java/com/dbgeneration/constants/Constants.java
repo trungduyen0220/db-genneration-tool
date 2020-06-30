@@ -1,4 +1,4 @@
-package constants;
+package com.dbgeneration.constants;
 
 public class Constants {
 	public static final String UNIQUE_CONSTRAINT = "Unique constraint";

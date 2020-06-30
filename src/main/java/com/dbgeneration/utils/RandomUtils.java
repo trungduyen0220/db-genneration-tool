@@ -1,10 +1,10 @@
-package utils;
+package com.dbgeneration.utils;
 
 import java.util.Random;
 
 import org.apache.log4j.Logger;
 
-import constants.Constants;
+import com.dbgeneration.constants.Constants;
 
 public class RandomUtils {
 

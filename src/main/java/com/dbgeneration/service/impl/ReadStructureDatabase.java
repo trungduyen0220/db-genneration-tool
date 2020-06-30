@@ -1,4 +1,4 @@
-package service.impl;
+package com.dbgeneration.service.impl;
 
 /**
  * ntmduyen
@@ -12,13 +12,12 @@ import java.util.List;
 
 import org.apache.log4j.Logger;
 
+import com.dbgeneration.constants.Constants;
+import com.dbgeneration.entity.Column;
+import com.dbgeneration.entity.Constraint;
+import com.dbgeneration.entity.Table;
+import com.dbgeneration.utils.SqlUtils;
 import com.mysql.cj.util.StringUtils;
-
-import constants.Constants;
-import entity.Column;
-import entity.Constraint;
-import entity.Table;
-import utils.SqlUtils;
 
 public class ReadStructureDatabase {
 

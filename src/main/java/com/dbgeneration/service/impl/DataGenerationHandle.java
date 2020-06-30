@@ -1,4 +1,4 @@
-package service.impl;
+package com.dbgeneration.service.impl;
 
 import java.util.HashSet;
 import java.util.List;
@@ -6,8 +6,8 @@ import java.util.Set;
 
 import org.apache.log4j.Logger;
 
-import entity.Column;
-import entity.Table;
+import com.dbgeneration.entity.Column;
+import com.dbgeneration.entity.Table;
 
 /**
  * 

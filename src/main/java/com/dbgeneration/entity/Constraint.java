@@ -1,6 +1,6 @@
-package entity;
+package com.dbgeneration.entity;
 
-import constants.Constants;
+import com.dbgeneration.constants.Constants;
 
 public class Constraint {
 	private String constrainName;
