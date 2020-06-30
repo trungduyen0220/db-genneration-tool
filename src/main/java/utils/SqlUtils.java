@@ -77,7 +77,7 @@ public class SqlUtils {
 			dataLength = "DATA_LENGTH";
 			tableSystem = "user_tab_columns";
 			nullable = "NULLABLE";
-			ordinalPosition = "ORDINAL_POSITION";
+			ordinalPosition = "COLUMN_ID";
 			break;
 		case Constants.MYSQL:
 			dataType = "COLUMN_TYPE";
