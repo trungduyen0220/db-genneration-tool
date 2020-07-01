@@ -1,4 +1,4 @@
-package utils;
+package com.dbgeneration.utils;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -6,7 +6,8 @@ import java.sql.SQLException;
 
 import org.apache.log4j.Logger;
 
-import constants.InputConstants;
+import com.dbgeneration.constants.InputConstants;
+
 
 public class ConnectionUtils  {
 	private String url = InputConstants.JDBC_URL;

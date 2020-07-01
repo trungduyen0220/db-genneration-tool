@@ -1,4 +1,4 @@
-package entity;
+package com.dbgeneration.entity;
 
 import java.util.Map;
 

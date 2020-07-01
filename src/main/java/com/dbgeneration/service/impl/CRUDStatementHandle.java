@@ -1,11 +1,12 @@
-package service.impl;
+package com.dbgeneration.service.impl;
 
 import java.sql.Connection;
 
 import org.apache.log4j.Logger;
 
-import entity.Table;
-import utils.SqlUtils;
+import com.dbgeneration.entity.Table;
+import com.dbgeneration.utils.SqlUtils;
+
 
 public class CRUDStatementHandle {
 	private static final Logger logger = Logger.getLogger(CRUDStatementHandle.class);

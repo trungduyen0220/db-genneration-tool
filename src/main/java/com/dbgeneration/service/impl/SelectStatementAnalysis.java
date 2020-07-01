@@ -1,4 +1,4 @@
-package service.impl;
+package com.dbgeneration.service.impl;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -7,9 +7,9 @@ import java.util.Map;
 
 import org.apache.log4j.Logger;
 
-import entity.DatabaseProperties;
-import utils.SqlUtils;
-import utils.StringHandleUtils;
+import com.dbgeneration.entity.DatabaseProperties;
+import com.dbgeneration.utils.SqlUtils;
+import com.dbgeneration.utils.StringHandleUtils;
 
 public class SelectStatementAnalysis {
 

@@ -1,4 +1,4 @@
-package constants;
+package com.dbgeneration.constants;
 
 public class SqlConstants {
 

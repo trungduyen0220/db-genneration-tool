@@ -1,4 +1,4 @@
-package utils;
+package com.dbgeneration.utils;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -7,11 +7,11 @@ import java.util.List;
 import org.apache.commons.lang.StringUtils;
 import org.apache.log4j.Logger;
 
-import constants.Constants;
-import constants.InputConstants;
-import constants.SqlConstants;
-import entity.Column;
-import entity.Table;
+import com.dbgeneration.constants.Constants;
+import com.dbgeneration.constants.InputConstants;
+import com.dbgeneration.constants.SqlConstants;
+import com.dbgeneration.entity.Column;
+import com.dbgeneration.entity.Table;
 public class SqlUtils {
 
 	private static final Logger logger = Logger.getLogger(SqlUtils.class);

@@ -1,4 +1,4 @@
-package utils;
+package com.dbgeneration.utils;
 
 import java.util.stream.Stream;
 
