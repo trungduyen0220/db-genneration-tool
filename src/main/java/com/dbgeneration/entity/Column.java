@@ -6,7 +6,7 @@ public class Column {
 	private String columnDataType;
 	private String columnDataLength;
 	private int ordinalPosition;
-	private boolean isNullable;
+	private boolean nullable;
 	
 	public String getColumnName() {
 		return columnName;
@@ -27,10 +27,10 @@ public class Column {
 		this.columnDataLength = columnDataLength;
 	}
 	public boolean isNullable() {
-		return isNullable;
+		return nullable;
 	}
-	public void setNullable(boolean isNullable) {
-		this.isNullable = isNullable;
+	public void setNullable(boolean nullable) {
+		this.nullable = nullable;
 	}
 	
 	public int getOrdinalPosition() {
@@ -42,11 +42,11 @@ public class Column {
 	
 	@Override
 	public String toString() {
-		String nullable = "NULL";
-		if (!isNullable) {
-			nullable = "NOT NULL";
+		String nullableStr = "NULL";
+		if (!nullable) {
+			nullableStr = "NOT NULL";
 		}
 		
-		return  ordinalPosition + ", " + columnName + ", " + columnDataType + ", " +  nullable;
+		return  ordinalPosition + ", " + columnName + ", " + columnDataType + ", " +  nullableStr;
 	}
 }

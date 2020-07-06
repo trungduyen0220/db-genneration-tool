@@ -18,12 +18,7 @@ public class HomeController {
 
 	@GetMapping({ "/", "/welcome" })
 	public String welcome(Model model) throws SQLException {
-		ConnectionUtils app = new ConnectionUtils();
-		Connection conn = app.connect(InputConstants.JDBC_DRIVER);
- 
-		List<Table> lstTable = ReadStructureDatabase.readTable(conn, InputConstants.TYPE_OF_DB);
 		
-		model.addAttribute("lstTable",lstTable);
 		return "welcome";
 	}
 }
