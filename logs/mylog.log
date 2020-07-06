@@ -1,47 +1,77 @@
-2020-06-30 22:12:55.984  INFO 4748 --- [restartedMain] c.dbgeneration.DbgenerationApplication   : Starting DbgenerationApplication on DESKTOP-HJ7PCU1 with PID 4748 (E:\Workspace\06.Projects\dbgeneration\target\classes started by msi in E:\Workspace\06.Projects\dbgeneration)
-2020-06-30 22:12:55.991  INFO 4748 --- [restartedMain] c.dbgeneration.DbgenerationApplication   : No active profile set, falling back to default profiles: default
-2020-06-30 22:12:56.033  INFO 4748 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\msi\.m2\repository\com\oracle\ojdbc\ojdbc8\19.3.0.0\ojdbc8-19.3.0.0.jar referenced one or more files that do not exist: file:/C:/Users/msi/.m2/repository/com/oracle/ojdbc/ojdbc8/19.3.0.0/oraclepki.jar
-2020-06-30 22:12:56.034  INFO 4748 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\msi\.m2\repository\com\oracle\ojdbc\oraclepki\19.3.0.0\oraclepki-19.3.0.0.jar referenced one or more files that do not exist: file:/C:/Users/msi/.m2/repository/com/oracle/ojdbc/oraclepki/19.3.0.0/osdt_core.jar,file:/C:/Users/msi/.m2/repository/com/oracle/ojdbc/oraclepki/19.3.0.0/osdt_cert.jar,file:/C:/Users/msi/.m2/repository/com/oracle/ojdbc/oraclepki/oracle.osdt/osdt_core.jar,file:/C:/Users/msi/.m2/repository/com/oracle/ojdbc/oraclepki/oracle.osdt/osdt_cert.jar
-2020-06-30 22:12:56.034  INFO 4748 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\msi\.m2\repository\org\apache\derby\derby\10.14.2.0\derby-10.14.2.0.jar referenced one or more files that do not exist: file:/C:/Users/msi/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_cs.jar,file:/C:/Users/msi/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_de_DE.jar,file:/C:/Users/msi/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_es.jar,file:/C:/Users/msi/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_fr.jar,file:/C:/Users/msi/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_hu.jar,file:/C:/Users/msi/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_it.jar,file:/C:/Users/msi/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_ja_JP.jar,file:/C:/Users/msi/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_ko_KR.jar,file:/C:/Users/msi/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_pl.jar,file:/C:/Users/msi/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_pt_BR.jar,file:/C:/Users/msi/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_ru.jar,file:/C:/Users/msi/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_zh_CN.jar,file:/C:/Users/msi/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_zh_TW.jar
-2020-06-30 22:12:56.034  INFO 4748 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\msi\.m2\repository\msv\msv\20020414\msv-20020414.jar referenced one or more files that do not exist: file:/C:/Users/msi/.m2/repository/msv/msv/20020414/xerces.jar,file:/C:/Users/msi/.m2/repository/msv/msv/20020414/isorelax.jar,file:/C:/Users/msi/.m2/repository/msv/msv/20020414/relaxngDatatype.jar,file:/C:/Users/msi/.m2/repository/msv/msv/20020414/xsdlib.jar
-2020-06-30 22:12:56.035  INFO 4748 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-06-30 22:12:56.035  INFO 4748 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-06-30 22:12:56.734  INFO 4748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-06-30 22:12:56.735  INFO 4748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2020-06-30 22:12:56.742  INFO 4748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4ms. Found 0 JDBC repository interfaces.
-2020-06-30 22:12:56.750  INFO 4748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-06-30 22:12:56.750  INFO 4748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
-2020-06-30 22:12:56.755  INFO 4748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1ms. Found 0 JPA repository interfaces.
-2020-06-30 22:12:56.761  INFO 4748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-06-30 22:12:56.761  INFO 4748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
-2020-06-30 22:12:56.762  INFO 4748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1ms. Found 0 MongoDB repository interfaces.
-2020-06-30 22:12:56.771  INFO 4748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-06-30 22:12:56.771  INFO 4748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Neo4j repositories in DEFAULT mode.
-2020-06-30 22:12:56.774  INFO 4748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0ms. Found 0 Neo4j repository interfaces.
-2020-06-30 22:12:56.896  WARN 4748 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.dbgeneration]' package. Please check your configuration.
-2020-06-30 22:12:57.119  INFO 4748 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$7d03ec18] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2020-06-30 22:12:57.172  WARN 4748 --- [restartedMain] o.s.xml.DocumentBuilderFactoryUtils      : http://javax.xml.XMLConstants/property/accessExternalDTD property not supported by org.apache.xerces.jaxp.DocumentBuilderFactoryImpl
-2020-06-30 22:12:57.173  WARN 4748 --- [restartedMain] o.s.xml.DocumentBuilderFactoryUtils      : http://javax.xml.XMLConstants/property/accessExternalSchema property not supported by org.apache.xerces.jaxp.DocumentBuilderFactoryImpl
-2020-06-30 22:12:57.176  WARN 4748 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'annotationActionEndpointMapping' defined in class path resource [org/springframework/ws/config/annotation/DelegatingWsConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping]: Factory method 'annotationActionEndpointMapping' threw exception; nested exception is java.lang.AbstractMethodError: Receiver class org.apache.xerces.jaxp.DocumentBuilderFactoryImpl does not define or inherit an implementation of the resolved method abstract setFeature(Ljava/lang/String;Z)V of abstract class javax.xml.parsers.DocumentBuilderFactory.
-2020-06-30 22:12:57.193  INFO 4748 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+2020-07-01 00:00:04.546  INFO 12844 --- [Thread-344] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-01 00:00:04.548  INFO 12844 --- [Thread-344] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2020-07-01 00:00:04.561  INFO 12844 --- [Thread-344] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2020-07-01 00:00:04.615  INFO 12844 --- [restartedMain] c.dbgeneration.DbgenerationApplication   : Starting DbgenerationApplication on DESKTOP-HJ7PCU1 with PID 12844 (E:\Workspace\06.Projects\dbgeneration\target\classes started by msi in E:\Workspace\06.Projects\dbgeneration)
+2020-07-01 00:00:04.616  INFO 12844 --- [restartedMain] c.dbgeneration.DbgenerationApplication   : No active profile set, falling back to default profiles: default
+2020-07-01 00:00:04.786  INFO 12844 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$ac454f19] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-01 00:00:04.787  INFO 12844 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2020-07-01 00:00:04.817  INFO 12844 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-07-01 00:00:04.817  INFO 12844 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-01 00:00:04.818  INFO 12844 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-01 00:00:04.834  INFO 12844 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-01 00:00:04.835  INFO 12844 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 218 ms
+2020-07-01 00:00:04.848  INFO 12844 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2020-07-01 00:00:04.873  INFO 12844 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2020-07-01 00:00:04.874  INFO 12844 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/sakila'
+2020-07-01 00:00:04.917  INFO 12844 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-01 00:00:04.969  INFO 12844 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-07-01 00:00:04.979  INFO 12844 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-01 00:00:04.982  INFO 12844 --- [restartedMain] c.dbgeneration.DbgenerationApplication   : Started DbgenerationApplication in 0.387 seconds (JVM running for 94.038)
+2020-07-01 00:00:04.983  INFO 12844 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-07-01 00:00:12.461  INFO 12844 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-01 00:00:12.463  INFO 12844 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-01 00:00:12.465  INFO 12844 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2020-07-01 00:00:45.640  INFO 12844 --- [Thread-514] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-01 00:00:45.640  INFO 12844 --- [Thread-514] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2020-07-01 00:00:45.648  INFO 12844 --- [Thread-514] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2020-07-01 00:00:45.701  INFO 12844 --- [restartedMain] c.dbgeneration.DbgenerationApplication   : Starting DbgenerationApplication on DESKTOP-HJ7PCU1 with PID 12844 (E:\Workspace\06.Projects\dbgeneration\target\classes started by msi in E:\Workspace\06.Projects\dbgeneration)
+2020-07-01 00:00:45.701  INFO 12844 --- [restartedMain] c.dbgeneration.DbgenerationApplication   : No active profile set, falling back to default profiles: default
+2020-07-01 00:00:45.860  INFO 12844 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$ac454f19] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-01 00:00:45.861  INFO 12844 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2020-07-01 00:00:45.890  INFO 12844 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-07-01 00:00:45.891  INFO 12844 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-01 00:00:45.891  INFO 12844 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-01 00:00:45.908  INFO 12844 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-01 00:00:45.908  INFO 12844 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 205 ms
+2020-07-01 00:00:45.920  INFO 12844 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2020-07-01 00:00:45.946  INFO 12844 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2020-07-01 00:00:45.947  INFO 12844 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/sakila'
+2020-07-01 00:00:45.981  INFO 12844 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-01 00:00:46.028  INFO 12844 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-07-01 00:00:46.037  INFO 12844 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-01 00:00:46.040  INFO 12844 --- [restartedMain] c.dbgeneration.DbgenerationApplication   : Started DbgenerationApplication in 0.359 seconds (JVM running for 135.095)
+2020-07-01 00:00:46.041  INFO 12844 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-07-01 00:00:46.197  INFO 12844 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-07-01 00:00:46.369  INFO 12844 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-01 00:00:46.369  INFO 12844 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2020-07-01 00:00:46.376  INFO 12844 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2020-07-01 00:00:51.408  INFO 16560 --- [restartedMain] DbgenerationApplication                  : Starting DbgenerationApplication on DESKTOP-HJ7PCU1 with PID 16560 (E:\Workspace\06.Projects\dbgeneration\target\classes started by msi in E:\Workspace\06.Projects\dbgeneration)
+2020-07-01 00:00:51.410  INFO 16560 --- [restartedMain] DbgenerationApplication                  : No active profile set, falling back to default profiles: default
+2020-07-01 00:00:51.448  INFO 16560 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\msi\.m2\repository\com\oracle\ojdbc\ojdbc8\19.3.0.0\ojdbc8-19.3.0.0.jar referenced one or more files that do not exist: file:/C:/Users/msi/.m2/repository/com/oracle/ojdbc/ojdbc8/19.3.0.0/oraclepki.jar
+2020-07-01 00:00:51.449  INFO 16560 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\msi\.m2\repository\com\oracle\ojdbc\oraclepki\19.3.0.0\oraclepki-19.3.0.0.jar referenced one or more files that do not exist: file:/C:/Users/msi/.m2/repository/com/oracle/ojdbc/oraclepki/19.3.0.0/osdt_core.jar,file:/C:/Users/msi/.m2/repository/com/oracle/ojdbc/oraclepki/19.3.0.0/osdt_cert.jar,file:/C:/Users/msi/.m2/repository/com/oracle/ojdbc/oraclepki/oracle.osdt/osdt_core.jar,file:/C:/Users/msi/.m2/repository/com/oracle/ojdbc/oraclepki/oracle.osdt/osdt_cert.jar
+2020-07-01 00:00:51.449  INFO 16560 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\msi\.m2\repository\org\apache\derby\derby\10.14.2.0\derby-10.14.2.0.jar referenced one or more files that do not exist: file:/C:/Users/msi/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_cs.jar,file:/C:/Users/msi/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_de_DE.jar,file:/C:/Users/msi/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_es.jar,file:/C:/Users/msi/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_fr.jar,file:/C:/Users/msi/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_hu.jar,file:/C:/Users/msi/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_it.jar,file:/C:/Users/msi/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_ja_JP.jar,file:/C:/Users/msi/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_ko_KR.jar,file:/C:/Users/msi/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_pl.jar,file:/C:/Users/msi/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_pt_BR.jar,file:/C:/Users/msi/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_ru.jar,file:/C:/Users/msi/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_zh_CN.jar,file:/C:/Users/msi/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_zh_TW.jar
+2020-07-01 00:00:51.449  INFO 16560 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\msi\.m2\repository\msv\msv\20020414\msv-20020414.jar referenced one or more files that do not exist: file:/C:/Users/msi/.m2/repository/msv/msv/20020414/xerces.jar,file:/C:/Users/msi/.m2/repository/msv/msv/20020414/isorelax.jar,file:/C:/Users/msi/.m2/repository/msv/msv/20020414/relaxngDatatype.jar,file:/C:/Users/msi/.m2/repository/msv/msv/20020414/xsdlib.jar
+2020-07-01 00:00:51.449  INFO 16560 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-07-01 00:00:51.450  INFO 16560 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-07-01 00:00:51.461  WARN 16560 --- [restartedMain] ionWarningsApplicationContextInitializer : 
+
+** WARNING ** : Your ApplicationContext is unlikely to start due to a @ComponentScan of the default package.
+
+
+2020-07-01 00:00:59.280  WARN 16560 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [DbgenerationApplication]; nested exception is java.lang.IllegalArgumentException: Unresolvable class definition for class [org.springframework.boot.autoconfigure.web.reactive.WebFluxAutoConfiguration$EnableWebFluxConfiguration]
+2020-07-01 00:00:59.286  INFO 16560 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2020-06-30 22:12:57.213 ERROR 4748 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+2020-07-01 00:00:59.296 ERROR 16560 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
 
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'annotationActionEndpointMapping' defined in class path resource [org/springframework/ws/config/annotation/DelegatingWsConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping]: Factory method 'annotationActionEndpointMapping' threw exception; nested exception is java.lang.AbstractMethodError: Receiver class org.apache.xerces.jaxp.DocumentBuilderFactoryImpl does not define or inherit an implementation of the resolved method abstract setFeature(Ljava/lang/String;Z)V of abstract class javax.xml.parsers.DocumentBuilderFactory.
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:483) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
-	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:229) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:723) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:536) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [DbgenerationApplication]; nested exception is java.lang.IllegalArgumentException: Unresolvable class definition for class [org.springframework.boot.autoconfigure.web.reactive.WebFluxAutoConfiguration$EnableWebFluxConfiguration]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:188) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:319) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:236) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:280) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:96) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:707) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:533) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
 	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-2.3.2.BUILD-SNAPSHOT.jar:2.3.2.BUILD-SNAPSHOT]
 	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758) ~[spring-boot-2.3.2.BUILD-SNAPSHOT.jar:2.3.2.BUILD-SNAPSHOT]
 	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750) ~[spring-boot-2.3.2.BUILD-SNAPSHOT.jar:2.3.2.BUILD-SNAPSHOT]
@@ -49,325 +79,53 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) ~[spring-boot-2.3.2.BUILD-SNAPSHOT.jar:2.3.2.BUILD-SNAPSHOT]
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237) ~[spring-boot-2.3.2.BUILD-SNAPSHOT.jar:2.3.2.BUILD-SNAPSHOT]
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) ~[spring-boot-2.3.2.BUILD-SNAPSHOT.jar:2.3.2.BUILD-SNAPSHOT]
-	at com.dbgeneration.DbgenerationApplication.main(DbgenerationApplication.java:10) ~[classes/:na]
+	at DbgenerationApplication.main(DbgenerationApplication.java:10) ~[classes/:na]
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
 	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.3.2.BUILD-SNAPSHOT.jar:2.3.2.BUILD-SNAPSHOT]
-Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping]: Factory method 'annotationActionEndpointMapping' threw exception; nested exception is java.lang.AbstractMethodError: Receiver class org.apache.xerces.jaxp.DocumentBuilderFactoryImpl does not define or inherit an implementation of the resolved method abstract setFeature(Ljava/lang/String;Z)V of abstract class javax.xml.parsers.DocumentBuilderFactory.
-	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:650) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
-	... 25 common frames omitted
-Caused by: java.lang.AbstractMethodError: Receiver class org.apache.xerces.jaxp.DocumentBuilderFactoryImpl does not define or inherit an implementation of the resolved method abstract setFeature(Ljava/lang/String;Z)V of abstract class javax.xml.parsers.DocumentBuilderFactory.
-	at org.springframework.xml.DocumentBuilderFactoryUtils.newInstance(DocumentBuilderFactoryUtils.java:58) ~[spring-xml-3.0.9.RELEASE.jar:na]
-	at org.springframework.ws.soap.addressing.version.AbstractAddressingVersion.<clinit>(AbstractAddressingVersion.java:66) ~[spring-ws-core-3.0.9.RELEASE.jar:na]
-	at org.springframework.ws.soap.addressing.server.AbstractAddressingEndpointMapping.initDefaultStrategies(AbstractAddressingEndpointMapping.java:107) ~[spring-ws-core-3.0.9.RELEASE.jar:na]
-	at org.springframework.ws.soap.addressing.server.AbstractAddressingEndpointMapping.<init>(AbstractAddressingEndpointMapping.java:98) ~[spring-ws-core-3.0.9.RELEASE.jar:na]
-	at org.springframework.ws.soap.addressing.server.AbstractActionEndpointMapping.<init>(AbstractActionEndpointMapping.java:38) ~[spring-ws-core-3.0.9.RELEASE.jar:na]
-	at org.springframework.ws.soap.addressing.server.AbstractActionMethodEndpointMapping.<init>(AbstractActionMethodEndpointMapping.java:34) ~[spring-ws-core-3.0.9.RELEASE.jar:na]
-	at org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping.<init>(AnnotationActionEndpointMapping.java:60) ~[spring-ws-core-3.0.9.RELEASE.jar:na]
-	at org.springframework.ws.config.annotation.WsConfigurationSupport.annotationActionEndpointMapping(WsConfigurationSupport.java:120) ~[spring-ws-core-3.0.9.RELEASE.jar:na]
-	at org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$7d03ec18.CGLIB$annotationActionEndpointMapping$6(<generated>) ~[spring-ws-core-3.0.9.RELEASE.jar:na]
-	at org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$7d03ec18$$FastClassBySpringCGLIB$$9e3ea034.invoke(<generated>) ~[spring-ws-core-3.0.9.RELEASE.jar:na]
-	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244) ~[spring-core-5.2.7.RELEASE.jar:5.2.7.RELEASE]
-	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
-	at org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$7d03ec18.annotationActionEndpointMapping(<generated>) ~[spring-ws-core-3.0.9.RELEASE.jar:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
-	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
-	... 26 common frames omitted
-
-2020-06-30 22:59:26.952  INFO 3564 --- [restartedMain] c.dbgeneration.DbgenerationApplication   : Starting DbgenerationApplication on DESKTOP-HJ7PCU1 with PID 3564 (E:\Workspace\06.Projects\dbgeneration\target\classes started by msi in E:\Workspace\06.Projects\dbgeneration)
-2020-06-30 22:59:26.956  INFO 3564 --- [restartedMain] c.dbgeneration.DbgenerationApplication   : No active profile set, falling back to default profiles: default
-2020-06-30 22:59:27.000  INFO 3564 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\msi\.m2\repository\com\oracle\ojdbc\ojdbc8\19.3.0.0\ojdbc8-19.3.0.0.jar referenced one or more files that do not exist: file:/C:/Users/msi/.m2/repository/com/oracle/ojdbc/ojdbc8/19.3.0.0/oraclepki.jar
-2020-06-30 22:59:27.001  INFO 3564 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\msi\.m2\repository\com\oracle\ojdbc\oraclepki\19.3.0.0\oraclepki-19.3.0.0.jar referenced one or more files that do not exist: file:/C:/Users/msi/.m2/repository/com/oracle/ojdbc/oraclepki/19.3.0.0/osdt_core.jar,file:/C:/Users/msi/.m2/repository/com/oracle/ojdbc/oraclepki/19.3.0.0/osdt_cert.jar,file:/C:/Users/msi/.m2/repository/com/oracle/ojdbc/oraclepki/oracle.osdt/osdt_core.jar,file:/C:/Users/msi/.m2/repository/com/oracle/ojdbc/oraclepki/oracle.osdt/osdt_cert.jar
-2020-06-30 22:59:27.001  INFO 3564 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\msi\.m2\repository\org\apache\derby\derby\10.14.2.0\derby-10.14.2.0.jar referenced one or more files that do not exist: file:/C:/Users/msi/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_cs.jar,file:/C:/Users/msi/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_de_DE.jar,file:/C:/Users/msi/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_es.jar,file:/C:/Users/msi/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_fr.jar,file:/C:/Users/msi/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_hu.jar,file:/C:/Users/msi/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_it.jar,file:/C:/Users/msi/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_ja_JP.jar,file:/C:/Users/msi/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_ko_KR.jar,file:/C:/Users/msi/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_pl.jar,file:/C:/Users/msi/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_pt_BR.jar,file:/C:/Users/msi/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_ru.jar,file:/C:/Users/msi/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_zh_CN.jar,file:/C:/Users/msi/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_zh_TW.jar
-2020-06-30 22:59:27.001  INFO 3564 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\msi\.m2\repository\msv\msv\20020414\msv-20020414.jar referenced one or more files that do not exist: file:/C:/Users/msi/.m2/repository/msv/msv/20020414/xerces.jar,file:/C:/Users/msi/.m2/repository/msv/msv/20020414/isorelax.jar,file:/C:/Users/msi/.m2/repository/msv/msv/20020414/relaxngDatatype.jar,file:/C:/Users/msi/.m2/repository/msv/msv/20020414/xsdlib.jar
-2020-06-30 22:59:27.002  INFO 3564 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-06-30 22:59:27.002  INFO 3564 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-06-30 22:59:27.760  INFO 3564 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-06-30 22:59:27.761  INFO 3564 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2020-06-30 22:59:27.775  INFO 3564 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7ms. Found 0 JDBC repository interfaces.
-2020-06-30 22:59:27.784  INFO 3564 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-06-30 22:59:27.785  INFO 3564 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
-2020-06-30 22:59:27.791  INFO 3564 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1ms. Found 0 JPA repository interfaces.
-2020-06-30 22:59:27.797  INFO 3564 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-06-30 22:59:27.798  INFO 3564 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
-2020-06-30 22:59:27.800  INFO 3564 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1ms. Found 0 MongoDB repository interfaces.
-2020-06-30 22:59:27.809  INFO 3564 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-06-30 22:59:27.809  INFO 3564 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Neo4j repositories in DEFAULT mode.
-2020-06-30 22:59:27.813  INFO 3564 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1ms. Found 0 Neo4j repository interfaces.
-2020-06-30 22:59:27.977  WARN 3564 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.dbgeneration]' package. Please check your configuration.
-2020-06-30 22:59:28.254  INFO 3564 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$88ac985f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2020-06-30 22:59:28.289  WARN 3564 --- [restartedMain] o.s.xml.DocumentBuilderFactoryUtils      : http://javax.xml.XMLConstants/property/accessExternalDTD property not supported by org.apache.xerces.jaxp.DocumentBuilderFactoryImpl
-2020-06-30 22:59:28.290  WARN 3564 --- [restartedMain] o.s.xml.DocumentBuilderFactoryUtils      : http://javax.xml.XMLConstants/property/accessExternalSchema property not supported by org.apache.xerces.jaxp.DocumentBuilderFactoryImpl
-2020-06-30 22:59:28.292  WARN 3564 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'annotationActionEndpointMapping' defined in class path resource [org/springframework/ws/config/annotation/DelegatingWsConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping]: Factory method 'annotationActionEndpointMapping' threw exception; nested exception is java.lang.AbstractMethodError: Receiver class org.apache.xerces.jaxp.DocumentBuilderFactoryImpl does not define or inherit an implementation of the resolved method abstract setFeature(Ljava/lang/String;Z)V of abstract class javax.xml.parsers.DocumentBuilderFactory.
-2020-06-30 22:59:28.301  INFO 3564 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2020-06-30 22:59:28.314 ERROR 3564 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
-
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'annotationActionEndpointMapping' defined in class path resource [org/springframework/ws/config/annotation/DelegatingWsConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping]: Factory method 'annotationActionEndpointMapping' threw exception; nested exception is java.lang.AbstractMethodError: Receiver class org.apache.xerces.jaxp.DocumentBuilderFactoryImpl does not define or inherit an implementation of the resolved method abstract setFeature(Ljava/lang/String;Z)V of abstract class javax.xml.parsers.DocumentBuilderFactory.
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:483) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
-	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:229) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:723) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:536) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-2.3.2.BUILD-SNAPSHOT.jar:2.3.2.BUILD-SNAPSHOT]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758) ~[spring-boot-2.3.2.BUILD-SNAPSHOT.jar:2.3.2.BUILD-SNAPSHOT]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750) ~[spring-boot-2.3.2.BUILD-SNAPSHOT.jar:2.3.2.BUILD-SNAPSHOT]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) ~[spring-boot-2.3.2.BUILD-SNAPSHOT.jar:2.3.2.BUILD-SNAPSHOT]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) ~[spring-boot-2.3.2.BUILD-SNAPSHOT.jar:2.3.2.BUILD-SNAPSHOT]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237) ~[spring-boot-2.3.2.BUILD-SNAPSHOT.jar:2.3.2.BUILD-SNAPSHOT]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) ~[spring-boot-2.3.2.BUILD-SNAPSHOT.jar:2.3.2.BUILD-SNAPSHOT]
-	at com.dbgeneration.DbgenerationApplication.main(DbgenerationApplication.java:10) ~[classes/:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
-	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.3.2.BUILD-SNAPSHOT.jar:2.3.2.BUILD-SNAPSHOT]
-Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping]: Factory method 'annotationActionEndpointMapping' threw exception; nested exception is java.lang.AbstractMethodError: Receiver class org.apache.xerces.jaxp.DocumentBuilderFactoryImpl does not define or inherit an implementation of the resolved method abstract setFeature(Ljava/lang/String;Z)V of abstract class javax.xml.parsers.DocumentBuilderFactory.
-	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:650) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
-	... 25 common frames omitted
-Caused by: java.lang.AbstractMethodError: Receiver class org.apache.xerces.jaxp.DocumentBuilderFactoryImpl does not define or inherit an implementation of the resolved method abstract setFeature(Ljava/lang/String;Z)V of abstract class javax.xml.parsers.DocumentBuilderFactory.
-	at org.springframework.xml.DocumentBuilderFactoryUtils.newInstance(DocumentBuilderFactoryUtils.java:58) ~[spring-xml-3.0.9.RELEASE.jar:na]
-	at org.springframework.ws.soap.addressing.version.AbstractAddressingVersion.<clinit>(AbstractAddressingVersion.java:66) ~[spring-ws-core-3.0.9.RELEASE.jar:na]
-	at org.springframework.ws.soap.addressing.server.AbstractAddressingEndpointMapping.initDefaultStrategies(AbstractAddressingEndpointMapping.java:107) ~[spring-ws-core-3.0.9.RELEASE.jar:na]
-	at org.springframework.ws.soap.addressing.server.AbstractAddressingEndpointMapping.<init>(AbstractAddressingEndpointMapping.java:98) ~[spring-ws-core-3.0.9.RELEASE.jar:na]
-	at org.springframework.ws.soap.addressing.server.AbstractActionEndpointMapping.<init>(AbstractActionEndpointMapping.java:38) ~[spring-ws-core-3.0.9.RELEASE.jar:na]
-	at org.springframework.ws.soap.addressing.server.AbstractActionMethodEndpointMapping.<init>(AbstractActionMethodEndpointMapping.java:34) ~[spring-ws-core-3.0.9.RELEASE.jar:na]
-	at org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping.<init>(AnnotationActionEndpointMapping.java:60) ~[spring-ws-core-3.0.9.RELEASE.jar:na]
-	at org.springframework.ws.config.annotation.WsConfigurationSupport.annotationActionEndpointMapping(WsConfigurationSupport.java:120) ~[spring-ws-core-3.0.9.RELEASE.jar:na]
-	at org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$88ac985f.CGLIB$annotationActionEndpointMapping$6(<generated>) ~[spring-ws-core-3.0.9.RELEASE.jar:na]
-	at org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$88ac985f$$FastClassBySpringCGLIB$$44badb71.invoke(<generated>) ~[spring-ws-core-3.0.9.RELEASE.jar:na]
-	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244) ~[spring-core-5.2.7.RELEASE.jar:5.2.7.RELEASE]
-	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
-	at org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$88ac985f.annotationActionEndpointMapping(<generated>) ~[spring-ws-core-3.0.9.RELEASE.jar:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
-	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
-	... 26 common frames omitted
-
-2020-06-30 23:01:35.698  INFO 16296 --- [restartedMain] c.dbgeneration.DbgenerationApplication   : Starting DbgenerationApplication on DESKTOP-HJ7PCU1 with PID 16296 (E:\Workspace\06.Projects\dbgeneration\target\classes started by msi in E:\Workspace\06.Projects\dbgeneration)
-2020-06-30 23:01:35.700  INFO 16296 --- [restartedMain] c.dbgeneration.DbgenerationApplication   : No active profile set, falling back to default profiles: default
-2020-06-30 23:01:35.736  INFO 16296 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\msi\.m2\repository\com\oracle\ojdbc\ojdbc8\19.3.0.0\ojdbc8-19.3.0.0.jar referenced one or more files that do not exist: file:/C:/Users/msi/.m2/repository/com/oracle/ojdbc/ojdbc8/19.3.0.0/oraclepki.jar
-2020-06-30 23:01:35.736  INFO 16296 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\msi\.m2\repository\com\oracle\ojdbc\oraclepki\19.3.0.0\oraclepki-19.3.0.0.jar referenced one or more files that do not exist: file:/C:/Users/msi/.m2/repository/com/oracle/ojdbc/oraclepki/19.3.0.0/osdt_core.jar,file:/C:/Users/msi/.m2/repository/com/oracle/ojdbc/oraclepki/19.3.0.0/osdt_cert.jar,file:/C:/Users/msi/.m2/repository/com/oracle/ojdbc/oraclepki/oracle.osdt/osdt_core.jar,file:/C:/Users/msi/.m2/repository/com/oracle/ojdbc/oraclepki/oracle.osdt/osdt_cert.jar
-2020-06-30 23:01:35.736  INFO 16296 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\msi\.m2\repository\org\apache\derby\derby\10.14.2.0\derby-10.14.2.0.jar referenced one or more files that do not exist: file:/C:/Users/msi/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_cs.jar,file:/C:/Users/msi/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_de_DE.jar,file:/C:/Users/msi/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_es.jar,file:/C:/Users/msi/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_fr.jar,file:/C:/Users/msi/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_hu.jar,file:/C:/Users/msi/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_it.jar,file:/C:/Users/msi/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_ja_JP.jar,file:/C:/Users/msi/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_ko_KR.jar,file:/C:/Users/msi/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_pl.jar,file:/C:/Users/msi/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_pt_BR.jar,file:/C:/Users/msi/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_ru.jar,file:/C:/Users/msi/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_zh_CN.jar,file:/C:/Users/msi/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_zh_TW.jar
-2020-06-30 23:01:35.736  INFO 16296 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\msi\.m2\repository\msv\msv\20020414\msv-20020414.jar referenced one or more files that do not exist: file:/C:/Users/msi/.m2/repository/msv/msv/20020414/xerces.jar,file:/C:/Users/msi/.m2/repository/msv/msv/20020414/isorelax.jar,file:/C:/Users/msi/.m2/repository/msv/msv/20020414/relaxngDatatype.jar,file:/C:/Users/msi/.m2/repository/msv/msv/20020414/xsdlib.jar
-2020-06-30 23:01:35.737  INFO 16296 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-06-30 23:01:35.737  INFO 16296 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-06-30 23:01:36.343  INFO 16296 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2020-06-30 23:01:36.350  INFO 16296 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4ms. Found 0 JDBC repository interfaces.
-2020-06-30 23:01:36.448  WARN 16296 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.dbgeneration]' package. Please check your configuration.
-2020-06-30 23:01:36.587  INFO 16296 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$42ee3910] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2020-06-30 23:01:36.615  WARN 16296 --- [restartedMain] o.s.xml.DocumentBuilderFactoryUtils      : http://javax.xml.XMLConstants/property/accessExternalDTD property not supported by org.apache.xerces.jaxp.DocumentBuilderFactoryImpl
-2020-06-30 23:01:36.616  WARN 16296 --- [restartedMain] o.s.xml.DocumentBuilderFactoryUtils      : http://javax.xml.XMLConstants/property/accessExternalSchema property not supported by org.apache.xerces.jaxp.DocumentBuilderFactoryImpl
-2020-06-30 23:01:36.617  WARN 16296 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'annotationActionEndpointMapping' defined in class path resource [org/springframework/ws/config/annotation/DelegatingWsConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping]: Factory method 'annotationActionEndpointMapping' threw exception; nested exception is java.lang.AbstractMethodError: Receiver class org.apache.xerces.jaxp.DocumentBuilderFactoryImpl does not define or inherit an implementation of the resolved method abstract setFeature(Ljava/lang/String;Z)V of abstract class javax.xml.parsers.DocumentBuilderFactory.
-2020-06-30 23:01:36.626  INFO 16296 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2020-06-30 23:01:36.636 ERROR 16296 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
-
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'annotationActionEndpointMapping' defined in class path resource [org/springframework/ws/config/annotation/DelegatingWsConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping]: Factory method 'annotationActionEndpointMapping' threw exception; nested exception is java.lang.AbstractMethodError: Receiver class org.apache.xerces.jaxp.DocumentBuilderFactoryImpl does not define or inherit an implementation of the resolved method abstract setFeature(Ljava/lang/String;Z)V of abstract class javax.xml.parsers.DocumentBuilderFactory.
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:483) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
-	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:229) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:723) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:536) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-2.3.2.BUILD-SNAPSHOT.jar:2.3.2.BUILD-SNAPSHOT]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758) ~[spring-boot-2.3.2.BUILD-SNAPSHOT.jar:2.3.2.BUILD-SNAPSHOT]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750) ~[spring-boot-2.3.2.BUILD-SNAPSHOT.jar:2.3.2.BUILD-SNAPSHOT]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) ~[spring-boot-2.3.2.BUILD-SNAPSHOT.jar:2.3.2.BUILD-SNAPSHOT]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) ~[spring-boot-2.3.2.BUILD-SNAPSHOT.jar:2.3.2.BUILD-SNAPSHOT]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237) ~[spring-boot-2.3.2.BUILD-SNAPSHOT.jar:2.3.2.BUILD-SNAPSHOT]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) ~[spring-boot-2.3.2.BUILD-SNAPSHOT.jar:2.3.2.BUILD-SNAPSHOT]
-	at com.dbgeneration.DbgenerationApplication.main(DbgenerationApplication.java:10) ~[classes/:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
-	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.3.2.BUILD-SNAPSHOT.jar:2.3.2.BUILD-SNAPSHOT]
-Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping]: Factory method 'annotationActionEndpointMapping' threw exception; nested exception is java.lang.AbstractMethodError: Receiver class org.apache.xerces.jaxp.DocumentBuilderFactoryImpl does not define or inherit an implementation of the resolved method abstract setFeature(Ljava/lang/String;Z)V of abstract class javax.xml.parsers.DocumentBuilderFactory.
-	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:650) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
-	... 25 common frames omitted
-Caused by: java.lang.AbstractMethodError: Receiver class org.apache.xerces.jaxp.DocumentBuilderFactoryImpl does not define or inherit an implementation of the resolved method abstract setFeature(Ljava/lang/String;Z)V of abstract class javax.xml.parsers.DocumentBuilderFactory.
-	at org.springframework.xml.DocumentBuilderFactoryUtils.newInstance(DocumentBuilderFactoryUtils.java:58) ~[spring-xml-3.0.9.RELEASE.jar:na]
-	at org.springframework.ws.soap.addressing.version.AbstractAddressingVersion.<clinit>(AbstractAddressingVersion.java:66) ~[spring-ws-core-3.0.9.RELEASE.jar:na]
-	at org.springframework.ws.soap.addressing.server.AbstractAddressingEndpointMapping.initDefaultStrategies(AbstractAddressingEndpointMapping.java:107) ~[spring-ws-core-3.0.9.RELEASE.jar:na]
-	at org.springframework.ws.soap.addressing.server.AbstractAddressingEndpointMapping.<init>(AbstractAddressingEndpointMapping.java:98) ~[spring-ws-core-3.0.9.RELEASE.jar:na]
-	at org.springframework.ws.soap.addressing.server.AbstractActionEndpointMapping.<init>(AbstractActionEndpointMapping.java:38) ~[spring-ws-core-3.0.9.RELEASE.jar:na]
-	at org.springframework.ws.soap.addressing.server.AbstractActionMethodEndpointMapping.<init>(AbstractActionMethodEndpointMapping.java:34) ~[spring-ws-core-3.0.9.RELEASE.jar:na]
-	at org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping.<init>(AnnotationActionEndpointMapping.java:60) ~[spring-ws-core-3.0.9.RELEASE.jar:na]
-	at org.springframework.ws.config.annotation.WsConfigurationSupport.annotationActionEndpointMapping(WsConfigurationSupport.java:120) ~[spring-ws-core-3.0.9.RELEASE.jar:na]
-	at org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$42ee3910.CGLIB$annotationActionEndpointMapping$8(<generated>) ~[spring-ws-core-3.0.9.RELEASE.jar:na]
-	at org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$42ee3910$$FastClassBySpringCGLIB$$6ebd9ec2.invoke(<generated>) ~[spring-ws-core-3.0.9.RELEASE.jar:na]
-	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244) ~[spring-core-5.2.7.RELEASE.jar:5.2.7.RELEASE]
-	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
-	at org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$42ee3910.annotationActionEndpointMapping(<generated>) ~[spring-ws-core-3.0.9.RELEASE.jar:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
-	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
-	... 26 common frames omitted
-
-2020-06-30 23:01:59.441  INFO 4452 --- [restartedMain] c.dbgeneration.DbgenerationApplication   : Starting DbgenerationApplication on DESKTOP-HJ7PCU1 with PID 4452 (E:\Workspace\06.Projects\dbgeneration\target\classes started by msi in E:\Workspace\06.Projects\dbgeneration)
-2020-06-30 23:01:59.444  INFO 4452 --- [restartedMain] c.dbgeneration.DbgenerationApplication   : No active profile set, falling back to default profiles: default
-2020-06-30 23:01:59.490  INFO 4452 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\msi\.m2\repository\com\oracle\ojdbc\ojdbc8\19.3.0.0\ojdbc8-19.3.0.0.jar referenced one or more files that do not exist: file:/C:/Users/msi/.m2/repository/com/oracle/ojdbc/ojdbc8/19.3.0.0/oraclepki.jar
-2020-06-30 23:01:59.491  INFO 4452 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\msi\.m2\repository\com\oracle\ojdbc\oraclepki\19.3.0.0\oraclepki-19.3.0.0.jar referenced one or more files that do not exist: file:/C:/Users/msi/.m2/repository/com/oracle/ojdbc/oraclepki/19.3.0.0/osdt_core.jar,file:/C:/Users/msi/.m2/repository/com/oracle/ojdbc/oraclepki/19.3.0.0/osdt_cert.jar,file:/C:/Users/msi/.m2/repository/com/oracle/ojdbc/oraclepki/oracle.osdt/osdt_core.jar,file:/C:/Users/msi/.m2/repository/com/oracle/ojdbc/oraclepki/oracle.osdt/osdt_cert.jar
-2020-06-30 23:01:59.491  INFO 4452 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\msi\.m2\repository\org\apache\derby\derby\10.14.2.0\derby-10.14.2.0.jar referenced one or more files that do not exist: file:/C:/Users/msi/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_cs.jar,file:/C:/Users/msi/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_de_DE.jar,file:/C:/Users/msi/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_es.jar,file:/C:/Users/msi/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_fr.jar,file:/C:/Users/msi/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_hu.jar,file:/C:/Users/msi/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_it.jar,file:/C:/Users/msi/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_ja_JP.jar,file:/C:/Users/msi/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_ko_KR.jar,file:/C:/Users/msi/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_pl.jar,file:/C:/Users/msi/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_pt_BR.jar,file:/C:/Users/msi/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_ru.jar,file:/C:/Users/msi/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_zh_CN.jar,file:/C:/Users/msi/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_zh_TW.jar
-2020-06-30 23:01:59.491  INFO 4452 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\msi\.m2\repository\msv\msv\20020414\msv-20020414.jar referenced one or more files that do not exist: file:/C:/Users/msi/.m2/repository/msv/msv/20020414/xerces.jar,file:/C:/Users/msi/.m2/repository/msv/msv/20020414/isorelax.jar,file:/C:/Users/msi/.m2/repository/msv/msv/20020414/relaxngDatatype.jar,file:/C:/Users/msi/.m2/repository/msv/msv/20020414/xsdlib.jar
-2020-06-30 23:01:59.492  INFO 4452 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-06-30 23:01:59.492  INFO 4452 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-06-30 23:02:00.114  INFO 4452 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2020-06-30 23:02:00.121  INFO 4452 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4ms. Found 0 JDBC repository interfaces.
-2020-06-30 23:02:00.214  WARN 4452 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.dbgeneration]' package. Please check your configuration.
-2020-06-30 23:02:00.356  INFO 4452 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$a8e44f22] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2020-06-30 23:02:00.389  WARN 4452 --- [restartedMain] o.s.xml.DocumentBuilderFactoryUtils      : http://javax.xml.XMLConstants/property/accessExternalDTD property not supported by org.apache.xerces.jaxp.DocumentBuilderFactoryImpl
-2020-06-30 23:02:00.390  WARN 4452 --- [restartedMain] o.s.xml.DocumentBuilderFactoryUtils      : http://javax.xml.XMLConstants/property/accessExternalSchema property not supported by org.apache.xerces.jaxp.DocumentBuilderFactoryImpl
-2020-06-30 23:02:00.392  WARN 4452 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'annotationActionEndpointMapping' defined in class path resource [org/springframework/ws/config/annotation/DelegatingWsConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping]: Factory method 'annotationActionEndpointMapping' threw exception; nested exception is java.lang.AbstractMethodError: Receiver class org.apache.xerces.jaxp.DocumentBuilderFactoryImpl does not define or inherit an implementation of the resolved method abstract setFeature(Ljava/lang/String;Z)V of abstract class javax.xml.parsers.DocumentBuilderFactory.
-2020-06-30 23:02:00.401  INFO 4452 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2020-06-30 23:02:00.411 ERROR 4452 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
-
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'annotationActionEndpointMapping' defined in class path resource [org/springframework/ws/config/annotation/DelegatingWsConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping]: Factory method 'annotationActionEndpointMapping' threw exception; nested exception is java.lang.AbstractMethodError: Receiver class org.apache.xerces.jaxp.DocumentBuilderFactoryImpl does not define or inherit an implementation of the resolved method abstract setFeature(Ljava/lang/String;Z)V of abstract class javax.xml.parsers.DocumentBuilderFactory.
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:483) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
-	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:229) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:723) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:536) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-2.3.2.BUILD-SNAPSHOT.jar:2.3.2.BUILD-SNAPSHOT]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758) ~[spring-boot-2.3.2.BUILD-SNAPSHOT.jar:2.3.2.BUILD-SNAPSHOT]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750) ~[spring-boot-2.3.2.BUILD-SNAPSHOT.jar:2.3.2.BUILD-SNAPSHOT]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) ~[spring-boot-2.3.2.BUILD-SNAPSHOT.jar:2.3.2.BUILD-SNAPSHOT]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) ~[spring-boot-2.3.2.BUILD-SNAPSHOT.jar:2.3.2.BUILD-SNAPSHOT]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237) ~[spring-boot-2.3.2.BUILD-SNAPSHOT.jar:2.3.2.BUILD-SNAPSHOT]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) ~[spring-boot-2.3.2.BUILD-SNAPSHOT.jar:2.3.2.BUILD-SNAPSHOT]
-	at com.dbgeneration.DbgenerationApplication.main(DbgenerationApplication.java:10) ~[classes/:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
-	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.3.2.BUILD-SNAPSHOT.jar:2.3.2.BUILD-SNAPSHOT]
-Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping]: Factory method 'annotationActionEndpointMapping' threw exception; nested exception is java.lang.AbstractMethodError: Receiver class org.apache.xerces.jaxp.DocumentBuilderFactoryImpl does not define or inherit an implementation of the resolved method abstract setFeature(Ljava/lang/String;Z)V of abstract class javax.xml.parsers.DocumentBuilderFactory.
-	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:650) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
-	... 25 common frames omitted
-Caused by: java.lang.AbstractMethodError: Receiver class org.apache.xerces.jaxp.DocumentBuilderFactoryImpl does not define or inherit an implementation of the resolved method abstract setFeature(Ljava/lang/String;Z)V of abstract class javax.xml.parsers.DocumentBuilderFactory.
-	at org.springframework.xml.DocumentBuilderFactoryUtils.newInstance(DocumentBuilderFactoryUtils.java:58) ~[spring-xml-3.0.9.RELEASE.jar:na]
-	at org.springframework.ws.soap.addressing.version.AbstractAddressingVersion.<clinit>(AbstractAddressingVersion.java:66) ~[spring-ws-core-3.0.9.RELEASE.jar:na]
-	at org.springframework.ws.soap.addressing.server.AbstractAddressingEndpointMapping.initDefaultStrategies(AbstractAddressingEndpointMapping.java:107) ~[spring-ws-core-3.0.9.RELEASE.jar:na]
-	at org.springframework.ws.soap.addressing.server.AbstractAddressingEndpointMapping.<init>(AbstractAddressingEndpointMapping.java:98) ~[spring-ws-core-3.0.9.RELEASE.jar:na]
-	at org.springframework.ws.soap.addressing.server.AbstractActionEndpointMapping.<init>(AbstractActionEndpointMapping.java:38) ~[spring-ws-core-3.0.9.RELEASE.jar:na]
-	at org.springframework.ws.soap.addressing.server.AbstractActionMethodEndpointMapping.<init>(AbstractActionMethodEndpointMapping.java:34) ~[spring-ws-core-3.0.9.RELEASE.jar:na]
-	at org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping.<init>(AnnotationActionEndpointMapping.java:60) ~[spring-ws-core-3.0.9.RELEASE.jar:na]
-	at org.springframework.ws.config.annotation.WsConfigurationSupport.annotationActionEndpointMapping(WsConfigurationSupport.java:120) ~[spring-ws-core-3.0.9.RELEASE.jar:na]
-	at org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$a8e44f22.CGLIB$annotationActionEndpointMapping$8(<generated>) ~[spring-ws-core-3.0.9.RELEASE.jar:na]
-	at org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$a8e44f22$$FastClassBySpringCGLIB$$ec068337.invoke(<generated>) ~[spring-ws-core-3.0.9.RELEASE.jar:na]
-	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244) ~[spring-core-5.2.7.RELEASE.jar:5.2.7.RELEASE]
-	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
-	at org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$a8e44f22.annotationActionEndpointMapping(<generated>) ~[spring-ws-core-3.0.9.RELEASE.jar:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
-	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.2.7.RELEASE.jar:5.2.7.RELEASE]
-	... 26 common frames omitted
-
-2020-06-30 23:07:48.724  INFO 12084 --- [restartedMain] c.dbgeneration.DbgenerationApplication   : Starting DbgenerationApplication on DESKTOP-HJ7PCU1 with PID 12084 (E:\Workspace\06.Projects\dbgeneration\target\classes started by msi in E:\Workspace\06.Projects\dbgeneration)
-2020-06-30 23:07:48.728  INFO 12084 --- [restartedMain] c.dbgeneration.DbgenerationApplication   : No active profile set, falling back to default profiles: default
-2020-06-30 23:07:48.768  INFO 12084 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\msi\.m2\repository\com\oracle\ojdbc\ojdbc8\19.3.0.0\ojdbc8-19.3.0.0.jar referenced one or more files that do not exist: file:/C:/Users/msi/.m2/repository/com/oracle/ojdbc/ojdbc8/19.3.0.0/oraclepki.jar
-2020-06-30 23:07:48.769  INFO 12084 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\msi\.m2\repository\com\oracle\ojdbc\oraclepki\19.3.0.0\oraclepki-19.3.0.0.jar referenced one or more files that do not exist: file:/C:/Users/msi/.m2/repository/com/oracle/ojdbc/oraclepki/19.3.0.0/osdt_core.jar,file:/C:/Users/msi/.m2/repository/com/oracle/ojdbc/oraclepki/19.3.0.0/osdt_cert.jar,file:/C:/Users/msi/.m2/repository/com/oracle/ojdbc/oraclepki/oracle.osdt/osdt_core.jar,file:/C:/Users/msi/.m2/repository/com/oracle/ojdbc/oraclepki/oracle.osdt/osdt_cert.jar
-2020-06-30 23:07:48.770  INFO 12084 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\msi\.m2\repository\org\apache\derby\derby\10.14.2.0\derby-10.14.2.0.jar referenced one or more files that do not exist: file:/C:/Users/msi/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_cs.jar,file:/C:/Users/msi/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_de_DE.jar,file:/C:/Users/msi/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_es.jar,file:/C:/Users/msi/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_fr.jar,file:/C:/Users/msi/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_hu.jar,file:/C:/Users/msi/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_it.jar,file:/C:/Users/msi/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_ja_JP.jar,file:/C:/Users/msi/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_ko_KR.jar,file:/C:/Users/msi/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_pl.jar,file:/C:/Users/msi/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_pt_BR.jar,file:/C:/Users/msi/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_ru.jar,file:/C:/Users/msi/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_zh_CN.jar,file:/C:/Users/msi/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_zh_TW.jar
-2020-06-30 23:07:48.770  INFO 12084 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\msi\.m2\repository\msv\msv\20020414\msv-20020414.jar referenced one or more files that do not exist: file:/C:/Users/msi/.m2/repository/msv/msv/20020414/xerces.jar,file:/C:/Users/msi/.m2/repository/msv/msv/20020414/isorelax.jar,file:/C:/Users/msi/.m2/repository/msv/msv/20020414/relaxngDatatype.jar,file:/C:/Users/msi/.m2/repository/msv/msv/20020414/xsdlib.jar
-2020-06-30 23:07:48.771  INFO 12084 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-06-30 23:07:48.771  INFO 12084 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-06-30 23:07:49.537  INFO 12084 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-06-30 23:07:49.538  INFO 12084 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2020-06-30 23:07:49.546  INFO 12084 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4ms. Found 0 JDBC repository interfaces.
-2020-06-30 23:07:49.551  INFO 12084 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-06-30 23:07:49.551  INFO 12084 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
-2020-06-30 23:07:49.553  INFO 12084 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2ms. Found 0 MongoDB repository interfaces.
-2020-06-30 23:07:49.563  INFO 12084 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-06-30 23:07:49.565  INFO 12084 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Neo4j repositories in DEFAULT mode.
-2020-06-30 23:07:49.572  INFO 12084 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0ms. Found 0 Neo4j repository interfaces.
-2020-06-30 23:07:49.747  WARN 12084 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.dbgeneration]' package. Please check your configuration.
-2020-06-30 23:07:49.948  INFO 12084 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$d945e831] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2020-06-30 23:07:49.980  WARN 12084 --- [restartedMain] o.s.xml.DocumentBuilderFactoryUtils      : http://javax.xml.XMLConstants/property/accessExternalDTD property not supported by org.apache.xerces.jaxp.DocumentBuilderFactoryImpl
-2020-06-30 23:07:49.981  WARN 12084 --- [restartedMain] o.s.xml.DocumentBuilderFactoryUtils      : http://javax.xml.XMLConstants/property/accessExternalSchema property not supported by org.apache.xerces.jaxp.DocumentBuilderFactoryImpl
-2020-06-30 23:07:50.013  INFO 12084 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
-2020-06-30 23:07:50.463  INFO 12084 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2020-06-30 23:07:50.472  INFO 12084 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-06-30 23:07:50.473  INFO 12084 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
-2020-06-30 23:07:50.563  INFO 12084 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-06-30 23:07:50.564  INFO 12084 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1793 ms
-2020-06-30 23:07:50.678  INFO 12084 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2020-06-30 23:07:50.763  WARN 12084 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
-2020-06-30 23:07:51.383  INFO 12084 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2020-06-30 23:07:51.412  INFO 12084 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/dbgeneration'
-2020-06-30 23:07:51.632  INFO 12084 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
-2020-06-30 23:07:51.862  INFO 12084 --- [cluster-ClusterId{value='5efb6357cae7b9443836de4d', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:1}] to localhost:27017
-2020-06-30 23:07:51.866  INFO 12084 --- [cluster-ClusterId{value='5efb6357cae7b9443836de4d', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2223600}
-2020-06-30 23:07:51.896  INFO 12084 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-06-30 23:07:52.376  INFO 12084 --- [restartedMain] org.neo4j.ogm.metadata.DomainInfo        : Starting Post-processing phase
-2020-06-30 23:07:52.377  INFO 12084 --- [restartedMain] org.neo4j.ogm.metadata.DomainInfo        : Building byLabel lookup maps
-2020-06-30 23:07:52.377  INFO 12084 --- [restartedMain] org.neo4j.ogm.metadata.DomainInfo        : Building interface class map for 1 classes
-2020-06-30 23:07:52.379  INFO 12084 --- [restartedMain] org.neo4j.ogm.metadata.DomainInfo        : Post-processing complete
-2020-06-30 23:07:52.405  INFO 12084 --- [restartedMain] o.s.d.neo4j.mapping.Neo4jMappingContext  : Neo4jMappingContext initialisation completed
-2020-06-30 23:07:52.528  INFO 12084 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2020-06-30 23:07:52.567  WARN 12084 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
-2020-06-30 23:07:52.587  INFO 12084 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2020-06-30 23:07:52.589  INFO 12084 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2020-06-30 23:07:52.603  INFO 12084 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2020-06-30 23:07:52.606  INFO 12084 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2020-06-30 23:07:52.625  INFO 12084 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2020-06-30 23:07:52.631 ERROR 12084 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Web server failed to start. Port 8080 was already in use.
-
-Action:
-
-Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+Caused by: java.lang.IllegalArgumentException: Unresolvable class definition for class [org.springframework.boot.autoconfigure.web.reactive.WebFluxAutoConfiguration$EnableWebFluxConfiguration]
+	at org.springframework.util.ClassUtils.resolveClassName(ClassUtils.java:331) ~[spring-core-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.core.annotation.TypeMappedAnnotation.adapt(TypeMappedAnnotation.java:446) ~[spring-core-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.core.annotation.TypeMappedAnnotation.getValue(TypeMappedAnnotation.java:369) ~[spring-core-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.core.annotation.TypeMappedAnnotation.asMap(TypeMappedAnnotation.java:284) ~[spring-core-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.core.annotation.AbstractMergedAnnotation.asAnnotationAttributes(AbstractMergedAnnotation.java:193) ~[spring-core-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.core.type.AnnotatedTypeMetadata.getAnnotationAttributes(AnnotatedTypeMetadata.java:106) ~[spring-core-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.context.annotation.AnnotationConfigUtils.attributesFor(AnnotationConfigUtils.java:285) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.context.annotation.AnnotationBeanNameGenerator.determineBeanNameFromAnnotation(AnnotationBeanNameGenerator.java:102) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.context.annotation.AnnotationBeanNameGenerator.generateBeanName(AnnotationBeanNameGenerator.java:81) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:280) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:132) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:295) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:249) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:206) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:174) ~[spring-context-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	... 19 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: org/springframework/web/reactive/config/DelegatingWebFluxConfiguration
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method) ~[na:na]
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1016) ~[na:na]
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174) ~[na:na]
+	at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:801) ~[na:na]
+	at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:699) ~[na:na]
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:622) ~[na:na]
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:580) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[na:na]
+	at java.base/java.lang.Class.forName0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:398) ~[na:na]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:144) ~[spring-boot-devtools-2.3.2.BUILD-SNAPSHOT.jar:2.3.2.BUILD-SNAPSHOT]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[na:na]
+	at java.base/java.lang.Class.forName0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:398) ~[na:na]
+	at org.springframework.util.ClassUtils.forName(ClassUtils.java:284) ~[spring-core-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.util.ClassUtils.resolveClassName(ClassUtils.java:324) ~[spring-core-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	... 33 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.web.reactive.config.DelegatingWebFluxConfiguration
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:582) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[na:na]
+	... 50 common frames omitted
 
 2020-07-01 09:01:20.286  INFO 12624 --- [restartedMain] c.dbgeneration.DbgenerationApplication   : Starting DbgenerationApplication on NTMDUYEN with PID 12624 (E:\workspaces\dbgenneration\target\classes started by ntmduyen in E:\workspaces\dbgenneration)
 2020-07-01 09:01:20.288  INFO 12624 --- [restartedMain] c.dbgeneration.DbgenerationApplication   : No active profile set, falling back to default profiles: default

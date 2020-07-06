@@ -9,7 +9,6 @@ import org.apache.log4j.Logger;
 import com.dbgeneration.entity.Column;
 import com.dbgeneration.entity.Table;
 
-
 /**
  * 
  * @author ntmduyen

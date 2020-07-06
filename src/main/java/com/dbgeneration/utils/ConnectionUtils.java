@@ -9,7 +9,6 @@ import org.apache.logging.log4j.Logger;
 
 import com.dbgeneration.constants.InputConstants;
 
-
 public class ConnectionUtils  {
 	private String url = InputConstants.JDBC_URL;
 	private String user = InputConstants.URL_USERNAME;

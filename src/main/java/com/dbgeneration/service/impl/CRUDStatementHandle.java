@@ -7,7 +7,6 @@ import org.apache.log4j.Logger;
 import com.dbgeneration.entity.Table;
 import com.dbgeneration.utils.SqlUtils;
 
-
 public class CRUDStatementHandle {
 	private static final Logger logger = Logger.getLogger(CRUDStatementHandle.class);
 
