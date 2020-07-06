@@ -7,7 +7,30 @@
       <h2>User Info Page</h2>
       <h3>Welcome! </h3>
        
-       
+       <th:block th:each="table : ${lstTable}">
+        	<p th:text="${table.tableName}"></p>
+        	
+        	<table class="table table-striped table-condensed table-bordered table-hover" style="width: 550px; margin-top: 5px;">
+				<thead class="thead-dark">
+				<tr>
+					<th>Position</th>
+					<th>Column name</th>
+					<th>Data type</th>
+					<th>Nullable</th>
+				</tr>
+				</thead>
+				<tbody>
+				<th:block th:each="column : ${table.tableColumns}">
+				<tr>
+					<td><span th:text="${column.ordinalPosition}"></span></td>
+					<td><span th:text="${column.columnDataType}"></span></td>
+					<td><span th:text="${column.columnDataType}"></span></td>
+				</tr>
+				</th:block>
+				</tbody>
+			</table>
+        
+       </th:block>
    </body>
     
 </html>

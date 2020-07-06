@@ -4,7 +4,8 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import com.dbgeneration.constants.InputConstants;
 
@@ -14,7 +15,7 @@ public class ConnectionUtils  {
 	private String user = InputConstants.URL_USERNAME;
 	private String password = InputConstants.URL_PASSWORD;
 
-	private static final Logger logger = Logger.getLogger(ConnectionUtils.class);
+    private static final Logger logger = LogManager.getLogger(ConnectionUtils.class);
 	/**
 	 * Connect to database
 	 *

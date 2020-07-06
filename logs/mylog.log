@@ -4404,3 +4404,263 @@ Unconditional classes:
 2020-07-01 11:21:57.380  INFO 16224 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2020-07-01 11:21:57.382  INFO 16224 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2020-07-01 11:21:57.384  INFO 16224 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2020-07-01 17:25:23.269  WARN 16224 --- [HikariPool-3 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Thread starvation or clock leap detected (housekeeper delta=1h4m28s920ms938µs400ns).
+2020-07-06 14:36:59.025  INFO 6104 --- [restartedMain] c.d.DbgenerationApplication              : Starting DbgenerationApplication on NTMDUYEN with PID 6104 (E:\workspaces\dbgenneration\target\classes started by ntmduyen in E:\workspaces\dbgenneration)
+2020-07-06 14:36:59.031  INFO 6104 --- [restartedMain] c.d.DbgenerationApplication              : No active profile set, falling back to default profiles: default
+2020-07-06 14:36:59.088  INFO 6104 --- [restartedMain] o.s.b.d.r.ChangeableUrls                 : The Class-Path manifest attribute in C:\Users\ntmduyen\.m2\repository\com\oracle\ojdbc\ojdbc8\19.3.0.0\ojdbc8-19.3.0.0.jar referenced one or more files that do not exist: file:/C:/Users/ntmduyen/.m2/repository/com/oracle/ojdbc/ojdbc8/19.3.0.0/oraclepki.jar
+2020-07-06 14:36:59.088  INFO 6104 --- [restartedMain] o.s.b.d.r.ChangeableUrls                 : The Class-Path manifest attribute in C:\Users\ntmduyen\.m2\repository\com\oracle\ojdbc\oraclepki\19.3.0.0\oraclepki-19.3.0.0.jar referenced one or more files that do not exist: file:/C:/Users/ntmduyen/.m2/repository/com/oracle/ojdbc/oraclepki/19.3.0.0/osdt_core.jar,file:/C:/Users/ntmduyen/.m2/repository/com/oracle/ojdbc/oraclepki/19.3.0.0/osdt_cert.jar,file:/C:/Users/ntmduyen/.m2/repository/com/oracle/ojdbc/oraclepki/oracle.osdt/osdt_core.jar,file:/C:/Users/ntmduyen/.m2/repository/com/oracle/ojdbc/oraclepki/oracle.osdt/osdt_cert.jar
+2020-07-06 14:36:59.089  INFO 6104 --- [restartedMain] o.s.b.d.r.ChangeableUrls                 : The Class-Path manifest attribute in C:\Users\ntmduyen\.m2\repository\org\apache\derby\derby\10.14.2.0\derby-10.14.2.0.jar referenced one or more files that do not exist: file:/C:/Users/ntmduyen/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_cs.jar,file:/C:/Users/ntmduyen/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_de_DE.jar,file:/C:/Users/ntmduyen/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_es.jar,file:/C:/Users/ntmduyen/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_fr.jar,file:/C:/Users/ntmduyen/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_hu.jar,file:/C:/Users/ntmduyen/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_it.jar,file:/C:/Users/ntmduyen/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_ja_JP.jar,file:/C:/Users/ntmduyen/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_ko_KR.jar,file:/C:/Users/ntmduyen/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_pl.jar,file:/C:/Users/ntmduyen/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_pt_BR.jar,file:/C:/Users/ntmduyen/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_ru.jar,file:/C:/Users/ntmduyen/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_zh_CN.jar,file:/C:/Users/ntmduyen/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_zh_TW.jar
+2020-07-06 14:36:59.089  INFO 6104 --- [restartedMain] o.s.b.d.r.ChangeableUrls                 : The Class-Path manifest attribute in C:\Users\ntmduyen\.m2\repository\msv\msv\20020414\msv-20020414.jar referenced one or more files that do not exist: file:/C:/Users/ntmduyen/.m2/repository/msv/msv/20020414/xerces.jar,file:/C:/Users/ntmduyen/.m2/repository/msv/msv/20020414/isorelax.jar,file:/C:/Users/ntmduyen/.m2/repository/msv/msv/20020414/relaxngDatatype.jar,file:/C:/Users/ntmduyen/.m2/repository/msv/msv/20020414/xsdlib.jar
+2020-07-06 14:36:59.089  INFO 6104 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-07-06 14:36:59.090  INFO 6104 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-07-06 14:37:00.238  INFO 6104 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-07-06 14:37:00.248  INFO 6104 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6ms. Found 0 JDBC repository interfaces.
+2020-07-06 14:37:00.423  WARN 6104 --- [restartedMain] o.m.s.m.ClassPathMapperScanner           : No MyBatis mapper was found in '[com.dbgeneration]' package. Please check your configuration.
+2020-07-06 14:37:00.616  INFO 6104 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$a0b3a037] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-06 14:37:00.682  WARN 6104 --- [restartedMain] o.s.x.DocumentBuilderFactoryUtils        : http://javax.xml.XMLConstants/property/accessExternalDTD property not supported by org.apache.xerces.jaxp.DocumentBuilderFactoryImpl
+2020-07-06 14:37:00.683  WARN 6104 --- [restartedMain] o.s.x.DocumentBuilderFactoryUtils        : http://javax.xml.XMLConstants/property/accessExternalSchema property not supported by org.apache.xerces.jaxp.DocumentBuilderFactoryImpl
+2020-07-06 14:37:00.740  INFO 6104 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2020-07-06 14:37:01.495  INFO 6104 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2020-07-06 14:37:01.503  INFO 6104 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-07-06 14:37:01.503  INFO 6104 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-06 14:37:01.825  INFO 6104 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-07-06 14:37:01.826  INFO 6104 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2735 ms
+2020-07-06 14:37:01.899  INFO 6104 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2020-07-06 14:37:02.027  WARN 6104 --- [restartedMain] c.z.h.u.DriverDataSource                 : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-07-06 14:37:04.055  INFO 6104 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2020-07-06 14:37:04.059  INFO 6104 --- [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/sakila?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC'
+2020-07-06 14:37:04.395  INFO 6104 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-06 14:37:04.991  INFO 6104 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-07-06 14:37:05.083  INFO 6104 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-06 14:37:05.090  INFO 6104 --- [restartedMain] c.d.DbgenerationApplication              : Started DbgenerationApplication in 6.714 seconds (JVM running for 10.263)
+2020-07-06 14:43:03.469  INFO 6104 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-06 14:43:03.470  INFO 6104 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2020-07-06 14:43:03.488  INFO 6104 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 17 ms
+2020-07-06 14:55:22.018  INFO 6104 --- [Thread-216] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-06 14:55:22.019  INFO 6104 --- [Thread-216] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2020-07-06 14:55:22.050  INFO 6104 --- [Thread-216] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2020-07-06 14:55:43.774  INFO 6104 --- [restartedMain] c.d.DbgenerationApplication              : Starting DbgenerationApplication on NTMDUYEN with PID 6104 (E:\workspaces\dbgenneration\target\classes started by ntmduyen in E:\workspaces\dbgenneration)
+2020-07-06 14:55:43.774  INFO 6104 --- [restartedMain] c.d.DbgenerationApplication              : No active profile set, falling back to default profiles: default
+2020-07-06 14:55:44.138  INFO 6104 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-07-06 14:55:44.141  INFO 6104 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2ms. Found 0 JDBC repository interfaces.
+2020-07-06 14:55:44.162  WARN 6104 --- [restartedMain] o.m.s.m.ClassPathMapperScanner           : No MyBatis mapper was found in '[com.dbgeneration]' package. Please check your configuration.
+2020-07-06 14:55:44.170  INFO 6104 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$a0b3a037] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-06 14:55:44.171  INFO 6104 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2020-07-06 14:55:44.230  INFO 6104 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2020-07-06 14:55:44.231  INFO 6104 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-07-06 14:55:44.231  INFO 6104 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-06 14:55:44.283  INFO 6104 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-07-06 14:55:44.283  INFO 6104 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 507 ms
+2020-07-06 14:55:44.295  INFO 6104 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-2 - Starting...
+2020-07-06 14:55:44.295  WARN 6104 --- [restartedMain] c.z.h.u.DriverDataSource                 : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-07-06 14:55:44.480  INFO 6104 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-2 - Start completed.
+2020-07-06 14:55:44.481  INFO 6104 --- [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/sakila?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC'
+2020-07-06 14:55:44.518  INFO 6104 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-06 14:55:44.582  INFO 6104 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-07-06 14:55:44.596  INFO 6104 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-06 14:55:44.600  INFO 6104 --- [restartedMain] c.d.DbgenerationApplication              : Started DbgenerationApplication in 0.873 seconds (JVM running for 1129.773)
+2020-07-06 14:55:44.602  INFO 6104 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-07-06 14:56:34.512  INFO 6104 --- [Thread-219] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-06 14:56:34.513  INFO 6104 --- [Thread-219] c.z.h.HikariDataSource                   : HikariPool-2 - Shutdown initiated...
+2020-07-06 14:56:34.519  INFO 6104 --- [Thread-219] c.z.h.HikariDataSource                   : HikariPool-2 - Shutdown completed.
+2020-07-06 14:56:34.586  INFO 6104 --- [restartedMain] c.d.DbgenerationApplication              : Starting DbgenerationApplication on NTMDUYEN with PID 6104 (E:\workspaces\dbgenneration\target\classes started by ntmduyen in E:\workspaces\dbgenneration)
+2020-07-06 14:56:34.587  INFO 6104 --- [restartedMain] c.d.DbgenerationApplication              : No active profile set, falling back to default profiles: default
+2020-07-06 14:56:34.781  INFO 6104 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-07-06 14:56:34.784  INFO 6104 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2ms. Found 0 JDBC repository interfaces.
+2020-07-06 14:56:34.811  WARN 6104 --- [restartedMain] o.m.s.m.ClassPathMapperScanner           : No MyBatis mapper was found in '[com.dbgeneration]' package. Please check your configuration.
+2020-07-06 14:56:34.820  INFO 6104 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$a0b3a037] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-06 14:56:34.820  INFO 6104 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2020-07-06 14:56:34.859  INFO 6104 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2020-07-06 14:56:34.860  INFO 6104 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-07-06 14:56:34.861  INFO 6104 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-06 14:56:34.939  INFO 6104 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-07-06 14:56:34.939  INFO 6104 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 350 ms
+2020-07-06 14:56:34.956  INFO 6104 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-3 - Starting...
+2020-07-06 14:56:34.957  WARN 6104 --- [restartedMain] c.z.h.u.DriverDataSource                 : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-07-06 14:56:34.967  INFO 6104 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-3 - Start completed.
+2020-07-06 14:56:34.968  INFO 6104 --- [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/sakila?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC'
+2020-07-06 14:56:35.021  INFO 6104 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-06 14:56:35.132  INFO 6104 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-07-06 14:56:35.145  INFO 6104 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-06 14:56:35.148  INFO 6104 --- [restartedMain] c.d.DbgenerationApplication              : Started DbgenerationApplication in 0.594 seconds (JVM running for 1180.321)
+2020-07-06 14:56:35.152  INFO 6104 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-07-06 14:56:55.744  INFO 6104 --- [Thread-437] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-06 14:56:55.744  INFO 6104 --- [Thread-437] c.z.h.HikariDataSource                   : HikariPool-3 - Shutdown initiated...
+2020-07-06 14:56:55.749  INFO 6104 --- [Thread-437] c.z.h.HikariDataSource                   : HikariPool-3 - Shutdown completed.
+2020-07-06 14:56:55.824  INFO 6104 --- [restartedMain] c.d.DbgenerationApplication              : Starting DbgenerationApplication on NTMDUYEN with PID 6104 (E:\workspaces\dbgenneration\target\classes started by ntmduyen in E:\workspaces\dbgenneration)
+2020-07-06 14:56:55.825  INFO 6104 --- [restartedMain] c.d.DbgenerationApplication              : No active profile set, falling back to default profiles: default
+2020-07-06 14:56:56.001  INFO 6104 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-07-06 14:56:56.004  INFO 6104 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2ms. Found 0 JDBC repository interfaces.
+2020-07-06 14:56:56.022  WARN 6104 --- [restartedMain] o.m.s.m.ClassPathMapperScanner           : No MyBatis mapper was found in '[com.dbgeneration]' package. Please check your configuration.
+2020-07-06 14:56:56.028  INFO 6104 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$a0b3a037] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-06 14:56:56.029  INFO 6104 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2020-07-06 14:56:56.073  INFO 6104 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2020-07-06 14:56:56.074  INFO 6104 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-07-06 14:56:56.074  INFO 6104 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-06 14:56:56.125  INFO 6104 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-07-06 14:56:56.125  INFO 6104 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 299 ms
+2020-07-06 14:56:56.136  INFO 6104 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-4 - Starting...
+2020-07-06 14:56:56.136  WARN 6104 --- [restartedMain] c.z.h.u.DriverDataSource                 : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-07-06 14:56:56.154  INFO 6104 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-4 - Start completed.
+2020-07-06 14:56:56.154  INFO 6104 --- [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/sakila?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC'
+2020-07-06 14:56:56.188  INFO 6104 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-06 14:56:56.246  INFO 6104 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-07-06 14:56:56.258  INFO 6104 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-06 14:56:56.263  INFO 6104 --- [restartedMain] c.d.DbgenerationApplication              : Started DbgenerationApplication in 0.469 seconds (JVM running for 1201.436)
+2020-07-06 14:56:56.265  INFO 6104 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-07-06 14:57:02.772  INFO 6104 --- [Thread-653] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-06 14:57:02.772  INFO 6104 --- [Thread-653] c.z.h.HikariDataSource                   : HikariPool-4 - Shutdown initiated...
+2020-07-06 14:57:02.777  INFO 6104 --- [Thread-653] c.z.h.HikariDataSource                   : HikariPool-4 - Shutdown completed.
+2020-07-06 14:57:02.842  INFO 6104 --- [restartedMain] c.d.DbgenerationApplication              : Starting DbgenerationApplication on NTMDUYEN with PID 6104 (E:\workspaces\dbgenneration\target\classes started by ntmduyen in E:\workspaces\dbgenneration)
+2020-07-06 14:57:02.842  INFO 6104 --- [restartedMain] c.d.DbgenerationApplication              : No active profile set, falling back to default profiles: default
+2020-07-06 14:57:03.039  INFO 6104 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-07-06 14:57:03.042  INFO 6104 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2ms. Found 0 JDBC repository interfaces.
+2020-07-06 14:57:03.059  WARN 6104 --- [restartedMain] o.m.s.m.ClassPathMapperScanner           : No MyBatis mapper was found in '[com.dbgeneration]' package. Please check your configuration.
+2020-07-06 14:57:03.065  INFO 6104 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$a0b3a037] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-06 14:57:03.066  INFO 6104 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2020-07-06 14:57:03.102  INFO 6104 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2020-07-06 14:57:03.103  INFO 6104 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-07-06 14:57:03.103  INFO 6104 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-06 14:57:03.169  INFO 6104 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-07-06 14:57:03.169  INFO 6104 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 325 ms
+2020-07-06 14:57:03.180  INFO 6104 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-5 - Starting...
+2020-07-06 14:57:03.180  WARN 6104 --- [restartedMain] c.z.h.u.DriverDataSource                 : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-07-06 14:57:03.202  INFO 6104 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-5 - Start completed.
+2020-07-06 14:57:03.202  INFO 6104 --- [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/sakila?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC'
+2020-07-06 14:57:03.237  INFO 6104 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-06 14:57:03.297  INFO 6104 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-07-06 14:57:03.310  INFO 6104 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-06 14:57:03.313  INFO 6104 --- [restartedMain] c.d.DbgenerationApplication              : Started DbgenerationApplication in 0.501 seconds (JVM running for 1208.487)
+2020-07-06 14:57:03.315  INFO 6104 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-07-06 14:57:09.469  INFO 6104 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-06 14:57:09.470  INFO 6104 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2020-07-06 14:57:09.472  INFO 6104 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 2 ms
+2020-07-06 14:57:31.971  INFO 6104 --- [Thread-869] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-06 14:57:31.971  INFO 6104 --- [Thread-869] c.z.h.HikariDataSource                   : HikariPool-5 - Shutdown initiated...
+2020-07-06 14:57:31.979  INFO 6104 --- [Thread-869] c.z.h.HikariDataSource                   : HikariPool-5 - Shutdown completed.
+2020-07-06 14:57:32.043  INFO 6104 --- [restartedMain] c.d.DbgenerationApplication              : Starting DbgenerationApplication on NTMDUYEN with PID 6104 (E:\workspaces\dbgenneration\target\classes started by ntmduyen in E:\workspaces\dbgenneration)
+2020-07-06 14:57:32.043  INFO 6104 --- [restartedMain] c.d.DbgenerationApplication              : No active profile set, falling back to default profiles: default
+2020-07-06 14:57:32.222  INFO 6104 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-07-06 14:57:32.225  INFO 6104 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2ms. Found 0 JDBC repository interfaces.
+2020-07-06 14:57:32.242  WARN 6104 --- [restartedMain] o.m.s.m.ClassPathMapperScanner           : No MyBatis mapper was found in '[com.dbgeneration]' package. Please check your configuration.
+2020-07-06 14:57:32.248  INFO 6104 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$a0b3a037] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-06 14:57:32.249  INFO 6104 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2020-07-06 14:57:32.287  INFO 6104 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2020-07-06 14:57:32.288  INFO 6104 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-07-06 14:57:32.288  INFO 6104 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-06 14:57:32.353  INFO 6104 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-07-06 14:57:32.353  INFO 6104 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 308 ms
+2020-07-06 14:57:32.363  INFO 6104 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-6 - Starting...
+2020-07-06 14:57:32.364  WARN 6104 --- [restartedMain] c.z.h.u.DriverDataSource                 : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-07-06 14:57:32.372  INFO 6104 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-6 - Start completed.
+2020-07-06 14:57:32.372  INFO 6104 --- [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/sakila?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC'
+2020-07-06 14:57:32.407  INFO 6104 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-06 14:57:32.462  INFO 6104 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-07-06 14:57:32.474  INFO 6104 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-06 14:57:32.478  INFO 6104 --- [restartedMain] c.d.DbgenerationApplication              : Started DbgenerationApplication in 0.463 seconds (JVM running for 1237.65)
+2020-07-06 14:57:32.480  INFO 6104 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-07-06 14:57:49.060  INFO 6104 --- [Thread-1085] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-06 14:57:49.060  INFO 6104 --- [Thread-1085] c.z.h.HikariDataSource                   : HikariPool-6 - Shutdown initiated...
+2020-07-06 14:57:49.067  INFO 6104 --- [Thread-1085] c.z.h.HikariDataSource                   : HikariPool-6 - Shutdown completed.
+2020-07-06 14:57:49.131  INFO 6104 --- [restartedMain] c.d.DbgenerationApplication              : Starting DbgenerationApplication on NTMDUYEN with PID 6104 (E:\workspaces\dbgenneration\target\classes started by ntmduyen in E:\workspaces\dbgenneration)
+2020-07-06 14:57:49.132  INFO 6104 --- [restartedMain] c.d.DbgenerationApplication              : No active profile set, falling back to default profiles: default
+2020-07-06 14:57:49.355  INFO 6104 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-07-06 14:57:49.357  INFO 6104 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2ms. Found 0 JDBC repository interfaces.
+2020-07-06 14:57:49.375  WARN 6104 --- [restartedMain] o.m.s.m.ClassPathMapperScanner           : No MyBatis mapper was found in '[com.dbgeneration]' package. Please check your configuration.
+2020-07-06 14:57:49.381  INFO 6104 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$a0b3a037] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-06 14:57:49.382  INFO 6104 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2020-07-06 14:57:49.420  INFO 6104 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2020-07-06 14:57:49.421  INFO 6104 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-07-06 14:57:49.421  INFO 6104 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-06 14:57:49.486  INFO 6104 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-07-06 14:57:49.487  INFO 6104 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 354 ms
+2020-07-06 14:57:49.497  INFO 6104 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-7 - Starting...
+2020-07-06 14:57:49.497  WARN 6104 --- [restartedMain] c.z.h.u.DriverDataSource                 : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-07-06 14:57:49.506  INFO 6104 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-7 - Start completed.
+2020-07-06 14:57:49.507  INFO 6104 --- [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/sakila?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC'
+2020-07-06 14:57:49.542  INFO 6104 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-06 14:57:49.600  INFO 6104 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-07-06 14:57:49.614  INFO 6104 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-06 14:57:49.618  INFO 6104 --- [restartedMain] c.d.DbgenerationApplication              : Started DbgenerationApplication in 0.516 seconds (JVM running for 1254.791)
+2020-07-06 14:57:49.618  INFO 6104 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-06 14:57:49.618  INFO 6104 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2020-07-06 14:57:49.621  INFO 6104 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-07-06 14:57:49.624  INFO 6104 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 6 ms
+2020-07-06 15:00:01.044  INFO 6104 --- [Thread-1301] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-06 15:00:01.044  INFO 6104 --- [Thread-1301] c.z.h.HikariDataSource                   : HikariPool-7 - Shutdown initiated...
+2020-07-06 15:00:01.051  INFO 6104 --- [Thread-1301] c.z.h.HikariDataSource                   : HikariPool-7 - Shutdown completed.
+2020-07-06 15:00:01.125  INFO 6104 --- [restartedMain] c.d.DbgenerationApplication              : Starting DbgenerationApplication on NTMDUYEN with PID 6104 (E:\workspaces\dbgenneration\target\classes started by ntmduyen in E:\workspaces\dbgenneration)
+2020-07-06 15:00:01.126  INFO 6104 --- [restartedMain] c.d.DbgenerationApplication              : No active profile set, falling back to default profiles: default
+2020-07-06 15:00:01.357  INFO 6104 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-07-06 15:00:01.359  INFO 6104 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2ms. Found 0 JDBC repository interfaces.
+2020-07-06 15:00:01.378  WARN 6104 --- [restartedMain] o.m.s.m.ClassPathMapperScanner           : No MyBatis mapper was found in '[com.dbgeneration]' package. Please check your configuration.
+2020-07-06 15:00:01.385  INFO 6104 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$a0b3a037] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-06 15:00:01.386  INFO 6104 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2020-07-06 15:00:01.449  INFO 6104 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2020-07-06 15:00:01.450  INFO 6104 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-07-06 15:00:01.450  INFO 6104 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-06 15:00:01.534  INFO 6104 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-07-06 15:00:01.535  INFO 6104 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 405 ms
+2020-07-06 15:00:01.547  INFO 6104 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-8 - Starting...
+2020-07-06 15:00:01.548  WARN 6104 --- [restartedMain] c.z.h.u.DriverDataSource                 : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-07-06 15:00:01.559  INFO 6104 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-8 - Start completed.
+2020-07-06 15:00:01.559  INFO 6104 --- [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/sakila?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC'
+2020-07-06 15:00:01.603  INFO 6104 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-06 15:00:01.682  INFO 6104 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-07-06 15:00:01.701  INFO 6104 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-06 15:00:01.705  INFO 6104 --- [restartedMain] c.d.DbgenerationApplication              : Started DbgenerationApplication in 0.613 seconds (JVM running for 1386.878)
+2020-07-06 15:00:01.707  INFO 6104 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-07-06 15:01:10.561  INFO 6104 --- [Thread-1517] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-06 15:01:10.562  INFO 6104 --- [Thread-1517] c.z.h.HikariDataSource                   : HikariPool-8 - Shutdown initiated...
+2020-07-06 15:01:10.568  INFO 6104 --- [Thread-1517] c.z.h.HikariDataSource                   : HikariPool-8 - Shutdown completed.
+2020-07-06 15:01:10.630  INFO 6104 --- [restartedMain] c.d.DbgenerationApplication              : Starting DbgenerationApplication on NTMDUYEN with PID 6104 (E:\workspaces\dbgenneration\target\classes started by ntmduyen in E:\workspaces\dbgenneration)
+2020-07-06 15:01:10.630  INFO 6104 --- [restartedMain] c.d.DbgenerationApplication              : No active profile set, falling back to default profiles: default
+2020-07-06 15:01:10.807  INFO 6104 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-07-06 15:01:10.809  INFO 6104 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2ms. Found 0 JDBC repository interfaces.
+2020-07-06 15:01:10.827  WARN 6104 --- [restartedMain] o.m.s.m.ClassPathMapperScanner           : No MyBatis mapper was found in '[com.dbgeneration]' package. Please check your configuration.
+2020-07-06 15:01:10.833  INFO 6104 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$a0b3a037] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-06 15:01:10.834  INFO 6104 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2020-07-06 15:01:10.876  INFO 6104 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2020-07-06 15:01:10.876  INFO 6104 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-07-06 15:01:10.877  INFO 6104 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-06 15:01:10.928  INFO 6104 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-07-06 15:01:10.928  INFO 6104 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 296 ms
+2020-07-06 15:01:10.938  INFO 6104 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-9 - Starting...
+2020-07-06 15:01:10.938  WARN 6104 --- [restartedMain] c.z.h.u.DriverDataSource                 : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-07-06 15:01:10.947  INFO 6104 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-9 - Start completed.
+2020-07-06 15:01:10.947  INFO 6104 --- [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/sakila?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC'
+2020-07-06 15:01:10.979  INFO 6104 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-06 15:01:11.032  INFO 6104 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-07-06 15:01:11.046  INFO 6104 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-06 15:01:11.048  INFO 6104 --- [restartedMain] c.d.DbgenerationApplication              : Started DbgenerationApplication in 0.443 seconds (JVM running for 1456.221)
+2020-07-06 15:01:11.051  INFO 6104 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-07-06 15:01:18.896  INFO 6104 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-06 15:01:18.896  INFO 6104 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2020-07-06 15:01:18.898  INFO 6104 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 2 ms
+2020-07-06 15:02:25.965  INFO 6104 --- [Thread-1733] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-06 15:02:25.965  INFO 6104 --- [Thread-1733] c.z.h.HikariDataSource                   : HikariPool-9 - Shutdown initiated...
+2020-07-06 15:02:25.971  INFO 6104 --- [Thread-1733] c.z.h.HikariDataSource                   : HikariPool-9 - Shutdown completed.
+2020-07-06 15:02:26.035  INFO 6104 --- [restartedMain] c.d.DbgenerationApplication              : Starting DbgenerationApplication on NTMDUYEN with PID 6104 (E:\workspaces\dbgenneration\target\classes started by ntmduyen in E:\workspaces\dbgenneration)
+2020-07-06 15:02:26.036  INFO 6104 --- [restartedMain] c.d.DbgenerationApplication              : No active profile set, falling back to default profiles: default
+2020-07-06 15:02:26.223  INFO 6104 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-07-06 15:02:26.226  INFO 6104 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2ms. Found 0 JDBC repository interfaces.
+2020-07-06 15:02:26.244  WARN 6104 --- [restartedMain] o.m.s.m.ClassPathMapperScanner           : No MyBatis mapper was found in '[com.dbgeneration]' package. Please check your configuration.
+2020-07-06 15:02:26.250  INFO 6104 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$a0b3a037] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-06 15:02:26.251  INFO 6104 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2020-07-06 15:02:26.292  INFO 6104 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2020-07-06 15:02:26.292  INFO 6104 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2020-07-06 15:02:26.293  INFO 6104 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-06 15:02:26.373  INFO 6104 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-07-06 15:02:26.373  INFO 6104 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 335 ms
+2020-07-06 15:02:26.383  INFO 6104 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-10 - Starting...
+2020-07-06 15:02:26.383  WARN 6104 --- [restartedMain] c.z.h.u.DriverDataSource                 : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-07-06 15:02:26.392  INFO 6104 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-10 - Start completed.
+2020-07-06 15:02:26.392  INFO 6104 --- [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/sakila?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC'
+2020-07-06 15:02:26.425  INFO 6104 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-06 15:02:26.478  INFO 6104 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-07-06 15:02:26.490  INFO 6104 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-06 15:02:26.493  INFO 6104 --- [restartedMain] c.d.DbgenerationApplication              : Started DbgenerationApplication in 0.486 seconds (JVM running for 1531.666)
+2020-07-06 15:02:26.495  INFO 6104 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-07-06 15:02:41.046  INFO 6104 --- [Thread-1949] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-06 15:02:41.046  INFO 6104 --- [Thread-1949] c.z.h.HikariDataSource                   : HikariPool-10 - Shutdown initiated...
+2020-07-06 15:02:41.052  INFO 6104 --- [Thread-1949] c.z.h.HikariDataSource                   : HikariPool-10 - Shutdown completed.

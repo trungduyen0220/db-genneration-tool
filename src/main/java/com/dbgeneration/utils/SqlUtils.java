@@ -5,7 +5,8 @@ import java.util.Arrays;
 import java.util.List;
 
 import org.apache.commons.lang.StringUtils;
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import com.dbgeneration.constants.Constants;
 import com.dbgeneration.constants.InputConstants;
@@ -14,7 +15,7 @@ import com.dbgeneration.entity.Column;
 import com.dbgeneration.entity.Table;
 public class SqlUtils {
 
-	private static final Logger logger = Logger.getLogger(SqlUtils.class);
+    private static final Logger logger = LogManager.getLogger(SqlUtils.class);
 
 	/**
 	 * Get SQL statements to get list of table names from database
@@ -258,7 +259,8 @@ public class SqlUtils {
 		logger.info("The url is: " + url);
 
 		logger.trace("END: getSchema()");
-		return url.substring(url.lastIndexOf('/') + 1, url.length());
+		return "sakila";
+		//return url.substring(url.lastIndexOf('/') + 1, url.length());
 
 	}
 }
