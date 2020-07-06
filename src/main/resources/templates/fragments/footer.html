@@ -1,39 +1,27 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org"
+	xmlns:sec="http://www.thymeleaf.org">
 <head>
-  <!-- Bootstrap core JavaScript-->
-  <script src="../static/vendor/jquery/jquery.min.js"></script>
-  <script src="../static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<meta charset="ISO-8859-1">
+<title></title>
+<th:block th:fragment="footerResources">
+<!-- Bootstrap core JavaScript-->
+<script src="../static/vendor/jquery/jquery.min.js" type="text/javascript" th:src="@{/vendor/jquery/jquery.min.js}" /></script>
+<script src="../static/vendor/bootstrap/js/bootstrap.bundle.min.js" type="text/javascript" th:src="@{/vendor/bootstrap/js/bootstrap.bundle.min.js}" /></script>
 
-  <!-- Core plugin JavaScript-->
-  <script src="../static/vendor/jquery-easing/jquery.easing.min.js"></script>
+<!-- Core plugin JavaScript-->
+<script src="../static/vendor/jquery-easing/jquery.easing.min.js" type="text/javascript" th:src="@{/vendor/jquery-easing/jquery.easing.min.js}" /></script>
 
-  <!-- Custom scripts for all pages-->
-  <script src="../static/js/sb-admin-2.min.js"></script>
+<!-- Custom scripts for all pages-->
+<script src="../static/js/sb-admin-2.min.js" type="text/javascript" th:src="@{/js/sb-admin-2.min.js}" /></script>
 
-  <!-- Page level plugins -->
-  <script src="../static/vendor/chart.js/Chart.min.js"></script>
+<!-- Page level plugins -->
+<script src="../static/vendor/chart.js/Chart.min.js" type="text/javascript" th:src="@{/vendor/chart.js/Chart.min.js}" /></script>
 
-  <!-- Page level custom scripts -->
-  <script src="../static/js/demo/chart-area-demo.js"></script>
-  <script src="../static/js/demo/chart-pie-demo.js"></script>
+
+</th:block>
 
 </head>
-<body>
-    <div th:fragment="footer" th:align="center">
-        <footer id="page-footer" class=" navbar navbar-light row">
-                
-                
-                    <div class="expanded align-center align-middle">
-                        <div class="columns large-2 col-lg" id="copyright">
-								<p>Data Import Software</p>
-                        </div>
-                        <div class="columns large-8 col-lg-8"></div>
-                        <div class="columns large-2 col-lg"></div>
-                    </div>
-                
-            </footer>
-    </div>
-</body>
 </html>
 
