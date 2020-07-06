@@ -3,7 +3,7 @@ package com.dbgeneration.constants;
 public class SqlConstants {
 
 	public final static String SQL_GET_LIST_TABLE = "SELECT DISTINCT TABLE_NAME FROM {0} ";
-	public final static String SQL_GET_COLUMN_PROPERTIES = "SELECT COLUMN_NAME, {0}, {1}, {2}, {3} FROM {4} WHERE TABLE_NAME = '{5}'";
+	public final static String SQL_GET_COLUMN_PROPERTIES = "SELECT COLUMN_NAME, {0}, {1}, {2}, {3} FROM {4} WHERE TABLE_NAME = '{5}' ORDER BY {3}";
 
 	public final static String SQL_INSERT_STATEMENT = "INSERT INTO {0} ({1}) VALUES ({2))";
 	

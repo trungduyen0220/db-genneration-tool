@@ -11,10 +11,10 @@ public class Constants {
 	public static final String STRING_ALPHA_KATAKANA_JAPANESE = "アイウエオカキャキキヅブジュキョクケコサシスセソギシャシュ ショチュチ ャトテツチタナミュミャミョヒョヒュヒャリャ";
 	public static final String STRING_ALPHA_ABCD = "ABCDEFGHIKLMNOPQRSTUVXYZ";
 	
-	public static final String MYSQL = "mysql";
-	public static final String POSTGRESQL = "postgresql";
-	public static final String ORACLE = "oracle";
-	public static final String SQLSERVER = "sqlserver";
+	public static final String MYSQL = "My SQL";
+	public static final String POSTGRESQL = "PostgreSQL";
+	public static final String ORACLE = "Oracle";
+	public static final String SQLSERVER = "Sql Server";
 	
 	public static final String UPPER_CASE = "upper case";
 	public static final String LOWER_CASE = "lower case";

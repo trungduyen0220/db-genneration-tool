@@ -1,16 +1,33 @@
 <!DOCTYPE HTML>
 <html xmlns:th="http://www.thymeleaf.org">
-   <head>
-   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" ></script>
-   
-      <title>Home</title>
-   </head>
-   <body>
-      <h2>User Info Page</h2>
-      <h3>Welcome! </h3>
-      
-   </body>
-    
+<head>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+<title>Home</title>
+</head>
+<body>
+	<h2>User Info Page</h2>
+	<h3>Welcome!</h3>
+
+	<!-- Choose database dropdownlist -->
+	<div class="dropdown">
+		<button class="btn btn-outline-primary btn-secondary dropdown-toggle" type="button"
+			id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+			aria-expanded="false">Choose your database</button>
+		<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+		    <th:block th:each="type : ${lstTypeOfDb}">
+				<a class="dropdown-item" href="#" th:text="${type}"></a> 
+			</th:block>
+		</div>
+	</div>
+	
+	<!-- URL link -->
+	
+	
+</body>
+
 </html>
 
