@@ -3,18 +3,18 @@ package com.dbgeneration.constants;
 public class InputConstants {
 	
 	//MySQL
-//	public static final String JDBC_URL = "jdbc:mysql://localhost:3306/sakila?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
-//	public static final String URL_USERNAME = "root";
-//	public static final String URL_PASSWORD = "123456";
-//	public static final String TYPE_OF_DB = "My SQL";
-//	public static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
+	public static final String JDBC_URL = "jdbc:mysql://localhost:3306/sakila?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
+	public static final String URL_USERNAME = "root";
+	public static final String URL_PASSWORD = "123456";
+	public static final String TYPE_OF_DB = "My SQL";
+	public static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
 
 	//Oracle: pionet
-	public static final String JDBC_URL = "jdbc:oracle:thin:@(description_list= (DESCRIPTION = (CONNECT_TIMEOUT=10) (RETRY_COUNT=2) (ADDRESS_LIST =  (ADDRESS = (PROTOCOL = TCP)(HOST = 192.168.67.96)(PORT = 1521))) (CONNECT_DATA = (SID = pionet))))";
-	public static final String URL_USERNAME = "PIO_USER";
-	public static final String URL_PASSWORD = "Admin123";
-	public static final String TYPE_OF_DB = "Oracle";
-	public static final String JDBC_DRIVER = "oracle.jdbc.OracleDriver";
+//	public static final String JDBC_URL = "jdbc:oracle:thin:@(description_list= (DESCRIPTION = (CONNECT_TIMEOUT=10) (RETRY_COUNT=2) (ADDRESS_LIST =  (ADDRESS = (PROTOCOL = TCP)(HOST = 192.168.67.96)(PORT = 1521))) (CONNECT_DATA = (SID = pionet))))";
+//	public static final String URL_USERNAME = "PIO_USER";
+//	public static final String URL_PASSWORD = "Admin123";
+//	public static final String TYPE_OF_DB = "Oracle";
+//	public static final String JDBC_DRIVER = "oracle.jdbc.OracleDriver";
 
 	public static final String NUMBER_OF_RECORDS = "2";
 	

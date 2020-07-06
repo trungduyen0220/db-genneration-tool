@@ -24,6 +24,6 @@ public class HomeController {
 
 		model.addAttribute("lstTypeOfDb", lstTypeOfDb);
 		 
-		return "welcome";
+		return "index";
 	}
 }
