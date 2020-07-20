@@ -13,7 +13,7 @@ import com.dbgeneration.constants.Constants;
 @Controller
 public class HomeController {
 
-	 @GetMapping("/home")  
+	 @GetMapping("/index")  
 	public String welcome(Model model) throws SQLException {
 		
 		List<String> lstTypeOfDb = new ArrayList<>();
@@ -24,8 +24,6 @@ public class HomeController {
 
 		model.addAttribute("lstTypeOfDb", lstTypeOfDb);
 		 
-		
-		
 		return "index";
 	}
 }

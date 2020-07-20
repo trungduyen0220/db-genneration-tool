@@ -35,7 +35,7 @@
 							<div class="card-body">
 								<div class="table-responsive">
 									<th:block th:each="table : ${lstTable}"> 
-									<th:block th:if="${table.tableName == 'actor'}">
+									
 										<p th:utext="${table.tableName}"></p>
 										<table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
 											<thead>
@@ -62,7 +62,6 @@
 												</th:block>
 											</tbody>
 										</table>
-									</th:block>
 									</th:block>
 								</div>
 							</div>

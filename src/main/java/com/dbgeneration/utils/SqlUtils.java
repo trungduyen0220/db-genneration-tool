@@ -130,6 +130,13 @@ public class SqlUtils {
 		return sql;
 	}
 
+	/**
+	 * Get SQL statements to get constraints of table from databse
+	 * 
+	 * @param typeOfDB
+	 * @param tableName
+	 * @return
+	 */
 	public static String getSQLReturnConstraint(String typeOfDB, String tableName) {
 		logger.debug("START: getConstraintPrimaryKey()");
 		String sql = SqlConstants.SQL_GET_LIST_PRIMARY_KEY;
@@ -157,6 +164,8 @@ public class SqlUtils {
 
 	/**
 	 * 
+	 * Get create SQL statement  to create database
+	 * 
 	 * @param databaseName
 	 * @return
 	 */
@@ -170,7 +179,7 @@ public class SqlUtils {
 	}
 
 	/**
-	 * 
+	 * Get create schema SQL statement 
 	 * @param schemaName
 	 * @return
 	 */
@@ -184,7 +193,7 @@ public class SqlUtils {
 	}
 
 	/**
-	 * 
+	 * Get create table SQL statement
 	 * @param table
 	 * @return
 	 */
@@ -193,12 +202,11 @@ public class SqlUtils {
 
 
 		logger.debug("END: getCreateTableStatement()");
-
 		return null;
 	}
 
 	/**
-	 * 
+	 * Get insert SQl statements, insert data to table
 	 * @param table
 	 * @return
 	 */
@@ -227,7 +235,7 @@ public class SqlUtils {
 	}
 
 	/**
-	 * 
+	 * Get formatted SQl statements
 	 * @return
 	 */
 	public static String getFormattedSQLString() {
@@ -248,7 +256,7 @@ public class SqlUtils {
 	}
 
 	/**
-	 * 
+	 * Get name of schema
 	 * @return
 	 */
 	private static String getSchema() {
