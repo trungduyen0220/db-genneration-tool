@@ -7,8 +7,8 @@ import java.util.Map;
 
 import org.apache.log4j.Logger;
 
+import com.dbgeneration.dao.ReadStructureDatabaseDAO;
 import com.dbgeneration.entity.DatabaseProperties;
-import com.dbgeneration.utils.SqlUtils;
 import com.dbgeneration.utils.StringHandleUtils;
 
 public class SelectStatementAnalysis {
@@ -26,7 +26,7 @@ public class SelectStatementAnalysis {
 
 		DatabaseProperties dbProperties = new DatabaseProperties();
 
-		String sql = SqlUtils.getFormattedSQLString();
+		String sql = ReadStructureDatabaseDAO.getFormattedSQLString();
 
 		List<String> lstSubStatement = new ArrayList<>();
 		lstSubStatement.addAll(returnSubJoinStatement("JOIN", sql));

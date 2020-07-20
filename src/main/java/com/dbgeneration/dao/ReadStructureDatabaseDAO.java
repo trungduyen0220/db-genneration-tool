@@ -1,4 +1,4 @@
-package com.dbgeneration.utils;
+package com.dbgeneration.dao;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -13,9 +13,9 @@ import com.dbgeneration.constants.InputConstants;
 import com.dbgeneration.constants.SqlConstants;
 import com.dbgeneration.entity.Column;
 import com.dbgeneration.entity.Table;
-public class SqlUtils {
+public class ReadStructureDatabaseDAO {
 
-    private static final Logger logger = LogManager.getLogger(SqlUtils.class);
+    private static final Logger logger = LogManager.getLogger(ReadStructureDatabaseDAO.class);
 
 	/**
 	 * Get SQL statements to get list of table names from database

@@ -12,25 +12,30 @@ import java.util.List;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.springframework.stereotype.Service;
 
 import com.dbgeneration.constants.Constants;
+import com.dbgeneration.dao.ReadStructureDatabaseDAO;
 import com.dbgeneration.entity.Column;
 import com.dbgeneration.entity.Constraint;
 import com.dbgeneration.entity.Table;
-import com.dbgeneration.utils.SqlUtils;
+import com.dbgeneration.service.ReadStructureDatabase;
 import com.mysql.cj.util.StringUtils;
 
-public class ReadStructureDatabase {
+@Service
+public class ReadStructureDatabaseImpl implements ReadStructureDatabase{
 
-    private static final Logger logger = LogManager.getLogger(ReadStructureDatabase.class);
+    private static final Logger logger = LogManager.getLogger(ReadStructureDatabaseImpl.class);
 
-	/**
+    /**
 	 * Read table from database
 	 * 
+	 * @param conn
+	 * @param typeDb
 	 * @return
 	 * @throws SQLException
 	 */
-	public static List<Table> readTable(Connection conn, String typeDb) throws SQLException {
+	public List<Table> readTable(Connection conn, String typeDb) throws SQLException {
 		logger.debug("START: readTable()");
 		List<Table> lstTable = new ArrayList<>();
 		List<String> lstTableName = getTableList(conn, typeDb);
@@ -43,7 +48,6 @@ public class ReadStructureDatabase {
 			newTbl.setTableName(tblName);
 			newTbl.setTableColumns(lstColumn);
 			newTbl.setLstConstrain(lstConstraint);
-			logger.info("Get infomation of a table: " + newTbl.toString());
 			lstTable.add(newTbl);
 		}
 		logger.debug("END: readTable()");
@@ -57,11 +61,11 @@ public class ReadStructureDatabase {
 	 * @return
 	 * @throws SQLException
 	 */
-	private static List<String> getTableList(Connection conn, String typeDb) throws SQLException {
+	private List<String> getTableList(Connection conn, String typeDb) throws SQLException {
 		logger.debug("START: getTableList()");
 
 		List<String> lstTable = new ArrayList<>();
-		String sql = SqlUtils.getSQLListTable(typeDb);
+		String sql = ReadStructureDatabaseDAO.getSQLListTable(typeDb);
 		Statement stmt = null;
 		ResultSet rs = null;
 		try {
@@ -94,12 +98,12 @@ public class ReadStructureDatabase {
 	 * @return
 	 * @throws SQLException 
 	 */
-	private static List<Column> getTableColumnsLst(Connection conn, String typeDb, String tableName) throws SQLException {
+	private List<Column> getTableColumnsLst(Connection conn, String typeDb, String tableName) throws SQLException {
 		logger.debug("START: getTableColumnsLst().");
 
 		List<Column> lstColumn = new ArrayList<>();
 
-		String sql = SqlUtils.getSQLColumnProperties(typeDb, tableName);
+		String sql = ReadStructureDatabaseDAO.getSQLColumnProperties(typeDb, tableName);
 		Statement stmt = null;
 		ResultSet rs = null;
 		try {
@@ -142,12 +146,12 @@ public class ReadStructureDatabase {
 	 * @return
 	 * @throws SQLException 
 	 */
-	private static List<Constraint> getLstTblConstraint(Connection conn, String typeDb, String tableName) throws SQLException {
+	private List<Constraint> getLstTblConstraint(Connection conn, String typeDb, String tableName) throws SQLException {
 		logger.debug("START: getTableConstraintLst()");
 		
 		List<Constraint> lstConstraint = new ArrayList<>();
 
-		String sql = SqlUtils.getSQLReturnConstraint(typeDb, tableName);
+		String sql = ReadStructureDatabaseDAO.getSQLReturnConstraint(typeDb, tableName);
 		Statement stmt = null;
 		ResultSet rs = null;
 		try {
