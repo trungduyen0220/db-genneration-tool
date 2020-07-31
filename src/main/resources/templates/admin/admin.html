@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Admin Page</title>
+</head>
+<body>
+	<h2>Welcome, Admin</h2>
+	</a> Logged user:
+	<span sec:authentication="name"></span>
+	<br /> Roles:
+	<span sec:authentication="principal.authorities"></span>
+</body>
+</html>

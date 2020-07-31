@@ -11,8 +11,8 @@ import org.apache.logging.log4j.Logger;
 import com.dbgeneration.constants.Constants;
 import com.dbgeneration.constants.InputConstants;
 import com.dbgeneration.constants.SqlConstants;
-import com.dbgeneration.entity.Column;
-import com.dbgeneration.entity.Table;
+import com.dbgeneration.dto.Column;
+import com.dbgeneration.dto.Table;
 
 public class ReadStructureDatabaseDAO {
 

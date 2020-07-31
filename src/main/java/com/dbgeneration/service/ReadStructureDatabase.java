@@ -6,7 +6,7 @@ import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import com.dbgeneration.entity.Table;
+import com.dbgeneration.dto.Table;
 
 @Service
 public interface ReadStructureDatabase {

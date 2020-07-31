@@ -16,9 +16,9 @@ import org.springframework.stereotype.Service;
 
 import com.dbgeneration.constants.Constants;
 import com.dbgeneration.dao.ReadStructureDatabaseDAO;
-import com.dbgeneration.entity.Column;
-import com.dbgeneration.entity.Constraint;
-import com.dbgeneration.entity.Table;
+import com.dbgeneration.dto.Column;
+import com.dbgeneration.dto.Constraint;
+import com.dbgeneration.dto.Table;
 import com.dbgeneration.service.ReadStructureDatabase;
 import com.mysql.cj.util.StringUtils;
 

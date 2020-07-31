@@ -7,7 +7,8 @@
 </head>
 <body>
 	<th:block th:fragment="topbarResources">
-		<nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+		<nav
+			class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
 
 			<!-- Sidebar Toggle (Topbar) -->
 			<button id="sidebarToggleTop"
@@ -16,21 +17,23 @@
 			</button>
 
 			<!-- Topbar Search -->
-			<form style="width:80%;" th:action="@{/tables}">
+			<form style="width: 80%;" th:action="@{/tables}">
 				<div class="input-group">
 					<div class="dropdown">
-						<select class="form-control border-2" id="typeOfDb" name="typeOfDb">
-					        <option  th:each="type : ${lstTypeOfDb}"
-					                th:value="${type}"
-					                th:text="${type}"></option>
+						<select class="form-control border-2" id="typeOfDb"
+							name="typeOfDb">
+							<option th:each="type : ${lstTypeOfDb}" th:value="${type}"
+								th:text="${type}"></option>
 						</select>
 					</div>
-					<input type="text" id="url" name="url" class="form-control bg-light border-1 small ml-2" style="width:80%;" placeholder="Url...">
+					<input type="text" id="url" name="url"
+						class="form-control bg-light border-1 small ml-2"
+						style="width: 80%;" placeholder="Url...">
 					<div class="input-group-append"></div>
 				</div>
 			</form>
 
-			
+
 
 			<!-- Topbar Navbar -->
 			<ul class="navbar-nav ml-auto">
@@ -56,7 +59,11 @@
 							data-target="#logoutModal"> <i
 							class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
 							Logout
-						</a>
+						</a> Logged user: <span sec:authentication="name"></span> <br />
+						Roles: <span sec:authentication="principal.authorities"></span>
+						<form action="#" th:action="@{/logout}" method="POST">
+							<button type="submit">Logout</button>
+						</form>
 					</div></li>
 			</ul>
 		</nav>

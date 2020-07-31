@@ -1,4 +1,4 @@
-package com.dbgeneration.entity;
+package com.dbgeneration.dto;
 
 import com.dbgeneration.constants.Constants;
 

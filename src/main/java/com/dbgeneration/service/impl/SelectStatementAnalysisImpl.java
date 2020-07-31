@@ -8,7 +8,7 @@ import java.util.Map;
 import org.apache.log4j.Logger;
 
 import com.dbgeneration.dao.ReadStructureDatabaseDAO;
-import com.dbgeneration.entity.DatabaseProperties;
+import com.dbgeneration.dto.DatabaseProperties;
 import com.dbgeneration.utils.StringHandleUtils;
 
 public class SelectStatementAnalysisImpl {

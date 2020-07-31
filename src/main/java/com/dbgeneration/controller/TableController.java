@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 import com.dbgeneration.constants.Constants;
 import com.dbgeneration.constants.InputConstants;
-import com.dbgeneration.entity.Table;
+import com.dbgeneration.dto.Table;
 import com.dbgeneration.service.ReadStructureDatabase;
 import com.dbgeneration.utils.ConnectionUtils;
 
