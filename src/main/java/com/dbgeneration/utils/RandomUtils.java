@@ -13,8 +13,12 @@ public class RandomUtils {
 	private static Random rand = new Random();
 
 	/**
-	 * Randome một ô text, string
+	 * Random string
 	 * 
+	 * @author ntmduyen
+	 * @datetime Jul 31, 2020 - 11:26:16 PM
+	 * @param maxLength
+	 * @param caseOfString
 	 * @return
 	 */
 	public static String randomString(int maxLength, String caseOfString) {
@@ -68,6 +72,13 @@ public class RandomUtils {
 		return randomString;
 	}
 
+	/**
+	 * Random katakana
+	 * 
+	 * @author ntmduyen
+	 * @datetime Jul 31, 2020 - 11:26:31 PM
+	 * @return
+	 */
 	public static String randomKata() {
 		Random rand = new Random();
 		int count = rand.nextInt(10) + 5;
@@ -94,6 +105,13 @@ public class RandomUtils {
 		return randomString;
 	}
 
+	/**
+	 * Random alpha numeric
+	 * 
+	 * @author ntmduyen
+	 * @datetime Jul 31, 2020 - 11:26:40 PM
+	 * @return
+	 */
 	public static String randomAlphaNumeric() {
 		Random rand = new Random();
 		int count = rand.nextInt(10) + 5;
@@ -119,6 +137,13 @@ public class RandomUtils {
 		return randomString;
 	}
 
+	/**
+	 * Random date
+	 * 
+	 * @author ntmduyen
+	 * @datetime Jul 31, 2020 - 11:26:51 PM
+	 * @return
+	 */
 	public static String randomDate() {
 		Random rand = new Random();
 //		int randomBoolean = rand.nextInt(2) + 1;

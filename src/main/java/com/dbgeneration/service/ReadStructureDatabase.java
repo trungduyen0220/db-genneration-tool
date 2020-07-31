@@ -10,10 +10,11 @@ import com.dbgeneration.entity.Table;
 
 @Service
 public interface ReadStructureDatabase {
-	
+
 	/**
-	 * Read table from database
 	 * 
+	 * @author ntmduyen
+	 * @datetime Jul 31, 2020 - 11:22:15 PM
 	 * @param conn
 	 * @param typeDb
 	 * @return

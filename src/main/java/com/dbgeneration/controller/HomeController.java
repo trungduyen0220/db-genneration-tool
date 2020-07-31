@@ -13,9 +13,17 @@ import com.dbgeneration.constants.Constants;
 @Controller
 public class HomeController {
 
-	 @GetMapping("/index")  
+	/**
+	 * 
+	 * @author ntmduyen
+	 * @datetime Jul 31, 2020 - 11:17:03 PM
+	 * @param model
+	 * @return
+	 * @throws SQLException
+	 */
+	@GetMapping(value = {"/index", "/"})
 	public String welcome(Model model) throws SQLException {
-		
+
 		List<String> lstTypeOfDb = new ArrayList<>();
 		lstTypeOfDb.add(Constants.MYSQL);
 		lstTypeOfDb.add(Constants.POSTGRESQL);
@@ -23,7 +31,7 @@ public class HomeController {
 		lstTypeOfDb.add(Constants.ORACLE);
 
 		model.addAttribute("lstTypeOfDb", lstTypeOfDb);
-		 
+
 		return "index";
 	}
 }

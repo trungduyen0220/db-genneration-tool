@@ -5,13 +5,17 @@ import java.util.stream.Stream;
 import org.apache.commons.lang3.StringUtils;
 
 public class StringHandleUtils {
+
 	/**
 	 * Convert string to title case
+	 * 
+	 * @author ntmduyen
+	 * @datetime Jul 31, 2020 - 11:27:02 PM
 	 * @param inputString
 	 * @return
 	 */
 	public static String titleCaseConversion(String inputString) {
-		
+
 		if (StringUtils.isBlank(inputString)) {
 			return StringUtils.EMPTY;
 		}
@@ -31,12 +35,15 @@ public class StringHandleUtils {
 
 			resultPlaceHolder.append(" ");
 		});
-		
+
 		return StringUtils.trim(resultPlaceHolder.toString());
 	}
 
 	/**
 	 * Convert string to normal case
+	 * 
+	 * @author ntmduyen
+	 * @datetime Jul 31, 2020 - 11:27:17 PM
 	 * @param inputString
 	 * @return
 	 */
@@ -44,28 +51,29 @@ public class StringHandleUtils {
 		if (StringUtils.isBlank(inputString)) {
 			return StringUtils.EMPTY;
 		}
-		
-		inputString = inputString.substring(0, 1).toUpperCase().concat((inputString).substring(1, inputString.length() - 1));
-		
+
+		inputString = inputString.substring(0, 1).toUpperCase()
+				.concat((inputString).substring(1, inputString.length() - 1));
+
 		return inputString;
 	}
-	
+
 	/**
 	 * 
 	 * @param inputString
 	 * @param findString: inputString contains findString
-	 * @param occurence: firstIndex of findString in inputString
+	 * @param occurence:  firstIndex of findString in inputString
 	 * @return
 	 */
 	public static int getIndexOfFindString(String inputString, String findString, int occurence) {
 		int length = findString.length();
 		String replaceString = "";
-		for(int i = 0; i < length; i++) {
-			replaceString+= "~";
+		for (int i = 0; i < length; i++) {
+			replaceString += "~";
 		}
-		
+
 		for (int i = 0; i < occurence; i++) {
-			 inputString = StringUtils.replaceOnce(inputString, findString, replaceString);
+			inputString = StringUtils.replaceOnce(inputString, findString, replaceString);
 		}
 		return inputString.indexOf(findString);
 	}

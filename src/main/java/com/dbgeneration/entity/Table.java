@@ -2,14 +2,13 @@ package com.dbgeneration.entity;
 
 import java.util.List;
 
-
 public class Table {
-	
+
 	private String tableName;
 	private List<Column> tableColumns;
 	private List<List<String>> tableRecords;
 	private List<Constraint> lstConstraint;
-	
+
 	public List<Constraint> getLstConstrain() {
 		return lstConstraint;
 	}
@@ -48,7 +47,7 @@ public class Table {
 
 		sb.append("Table: " + tableName + "\r\n");
 		sb.append("List of columns:\r\n");
-		for( Column column : tableColumns) {
+		for (Column column : tableColumns) {
 			sb.append(column.toString());
 			sb.append("\r\n");
 		}

@@ -16,14 +16,21 @@ import com.dbgeneration.entity.Table;
 import com.dbgeneration.service.ReadStructureDatabase;
 import com.dbgeneration.utils.ConnectionUtils;
 
-
 @Controller
 public class TableController {
 
 	@Autowired
 	public ReadStructureDatabase readStructureDb;
-	
-	@GetMapping({"/tables" })
+
+	/**
+	 * 
+	 * @author ntmduyen
+	 * @datetime Jul 31, 2020 - 11:22:26 PM
+	 * @param model
+	 * @return
+	 * @throws SQLException
+	 */
+	@GetMapping({ "/tables" })
 	public String welcome(Model model) throws SQLException {
 		List<String> lstTypeOfDb = new ArrayList<>();
 		lstTypeOfDb.add(Constants.MYSQL);
@@ -32,13 +39,13 @@ public class TableController {
 		lstTypeOfDb.add(Constants.ORACLE);
 
 		model.addAttribute("lstTypeOfDb", lstTypeOfDb);
-		
+
 		ConnectionUtils app = new ConnectionUtils();
 		Connection conn = app.connect(InputConstants.JDBC_DRIVER);
 
 		List<Table> lstTable = readStructureDb.readTable(conn, InputConstants.TYPE_OF_DB);
-		
-		model.addAttribute("lstTable",lstTable);
+
+		model.addAttribute("lstTable", lstTable);
 
 		return "index";
 	}

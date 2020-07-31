@@ -13,13 +13,16 @@ import com.dbgeneration.constants.InputConstants;
 import com.dbgeneration.constants.SqlConstants;
 import com.dbgeneration.entity.Column;
 import com.dbgeneration.entity.Table;
+
 public class ReadStructureDatabaseDAO {
 
-    private static final Logger logger = LogManager.getLogger(ReadStructureDatabaseDAO.class);
+	private static final Logger logger = LogManager.getLogger(ReadStructureDatabaseDAO.class);
 
 	/**
 	 * Get SQL statements to get list of table names from database
 	 * 
+	 * @author ntmduyen
+	 * @datetime Jul 31, 2020 - 11:22:38 PM
 	 * @param typeOfDB
 	 * @return
 	 */
@@ -58,6 +61,8 @@ public class ReadStructureDatabaseDAO {
 	/**
 	 * Get SQL statements to get column properties from database
 	 * 
+	 * @author ntmduyen
+	 * @datetime Jul 31, 2020 - 11:22:52 PM
 	 * @param typeOfDB
 	 * @param tableName
 	 * @return
@@ -69,7 +74,7 @@ public class ReadStructureDatabaseDAO {
 		String dataType = StringUtils.EMPTY; // {0}
 		String dataLength = StringUtils.EMPTY; // {1}
 		String nullable = StringUtils.EMPTY; // {2}
-		String ordinalPosition = StringUtils.EMPTY; //{3}
+		String ordinalPosition = StringUtils.EMPTY; // {3}
 		String tableSystem = StringUtils.EMPTY; // {4}
 
 		switch (typeOfDB) {
@@ -110,7 +115,7 @@ public class ReadStructureDatabaseDAO {
 		} else {
 			sql = StringUtils.replace(sql, "{2}", nullable);
 		}
-		
+
 		if (StringUtils.isEmpty(ordinalPosition)) {
 			sql = StringUtils.replace(sql, ", {3}", StringUtils.EMPTY);
 		} else {
@@ -133,6 +138,8 @@ public class ReadStructureDatabaseDAO {
 	/**
 	 * Get SQL statements to get constraints of table from databse
 	 * 
+	 * @author ntmduyen
+	 * @datetime Jul 31, 2020 - 11:23:02 PM
 	 * @param typeOfDB
 	 * @param tableName
 	 * @return
@@ -140,7 +147,7 @@ public class ReadStructureDatabaseDAO {
 	public static String getSQLReturnConstraint(String typeOfDB, String tableName) {
 		logger.debug("START: getConstraintPrimaryKey()");
 		String sql = SqlConstants.SQL_GET_LIST_PRIMARY_KEY;
-		String tblSystem = StringUtils.EMPTY; //{0}
+		String tblSystem = StringUtils.EMPTY; // {0}
 		switch (typeOfDB) {
 		case Constants.ORACLE:
 			tblSystem = "all_cons_columns";
@@ -149,29 +156,29 @@ public class ReadStructureDatabaseDAO {
 			tblSystem = "information_schema. KEY_COLUMN_USAGE";
 			break;
 		}
-		
+
 		sql = sql.replace("{0}", tblSystem);
 		sql = sql.replace("{1}", tableName);
-		
+
 		logger.debug("{0} " + tblSystem);
 		logger.debug("{1} " + tableName);
-		
+
 		logger.info("Get list of constraints: " + sql);
-		
+
 		logger.debug("END: getConstraintPrimaryKey()");
 		return sql;
 	}
 
 	/**
+	 * Get create SQL statement to create database
 	 * 
-	 * Get create SQL statement  to create database
-	 * 
+	 * @author ntmduyen
+	 * @datetime Jul 31, 2020 - 11:23:09 PM
 	 * @param databaseName
 	 * @return
 	 */
 	public static String getCreateDatabaseStatement(String databaseName) {
 		logger.debug("START: getCreateDatabaseStatement()");
-
 
 		logger.debug("END: getCreateDatabaseStatement()");
 
@@ -179,13 +186,13 @@ public class ReadStructureDatabaseDAO {
 	}
 
 	/**
-	 * Get create schema SQL statement 
+	 * Get create schema SQL statement
+	 * 
 	 * @param schemaName
 	 * @return
 	 */
 	public static String getCreateSchemaStatement(String schemaName) {
 		logger.debug("START: getCreateSchemaStatement()");
-
 
 		logger.debug("END: getCreateSchemaStatement()");
 
@@ -194,12 +201,14 @@ public class ReadStructureDatabaseDAO {
 
 	/**
 	 * Get create table SQL statement
+	 * 
+	 * @author ntmduyen
+	 * @datetime Jul 31, 2020 - 11:23:17 PM
 	 * @param table
 	 * @return
 	 */
 	public static String getCreateTableStatement(Table table) {
 		logger.debug("START: getCreateTableStatement()");
-
 
 		logger.debug("END: getCreateTableStatement()");
 		return null;
@@ -207,6 +216,9 @@ public class ReadStructureDatabaseDAO {
 
 	/**
 	 * Get insert SQl statements, insert data to table
+	 * 
+	 * @author ntmduyen
+	 * @datetime Jul 31, 2020 - 11:23:23 PM
 	 * @param table
 	 * @return
 	 */
@@ -236,6 +248,9 @@ public class ReadStructureDatabaseDAO {
 
 	/**
 	 * Get formatted SQl statements
+	 * 
+	 * @author ntmduyen
+	 * @datetime Jul 31, 2020 - 11:23:30 PM
 	 * @return
 	 */
 	public static String getFormattedSQLString() {
@@ -257,6 +272,9 @@ public class ReadStructureDatabaseDAO {
 
 	/**
 	 * Get name of schema
+	 * 
+	 * @author ntmduyen
+	 * @datetime Jul 31, 2020 - 11:23:37 PM
 	 * @return
 	 */
 	private static String getSchema() {
@@ -268,7 +286,7 @@ public class ReadStructureDatabaseDAO {
 
 		logger.trace("END: getSchema()");
 		return "sakila";
-		//return url.substring(url.lastIndexOf('/') + 1, url.length());
+		// return url.substring(url.lastIndexOf('/') + 1, url.length());
 
 	}
 }

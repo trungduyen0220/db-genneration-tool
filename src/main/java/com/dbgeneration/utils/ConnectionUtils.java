@@ -9,21 +9,25 @@ import org.apache.logging.log4j.Logger;
 
 import com.dbgeneration.constants.InputConstants;
 
-public class ConnectionUtils  {
+public class ConnectionUtils {
 	private String url = InputConstants.JDBC_URL;
 	private String user = InputConstants.URL_USERNAME;
 	private String password = InputConstants.URL_PASSWORD;
 
-    private static final Logger logger = LogManager.getLogger(ConnectionUtils.class);
+	private static final Logger logger = LogManager.getLogger(ConnectionUtils.class);
+
 	/**
 	 * Connect to database
-	 *
-	 * @return a Connection object
+	 * 
+	 * @author ntmduyen
+	 * @datetime Jul 31, 2020 - 11:26:07 PM
+	 * @param driver
+	 * @return
 	 */
 	public Connection connect(String driver) {
 
 		logger.debug("connect() start.");
-		
+
 		Connection conn = null;
 		try {
 			Class.forName(driver);
@@ -34,7 +38,7 @@ public class ConnectionUtils  {
 		} catch (ClassNotFoundException e) {
 			logger.error(e.getMessage());
 		}
-		
+
 		logger.debug("connect() end.");
 		return conn;
 	}

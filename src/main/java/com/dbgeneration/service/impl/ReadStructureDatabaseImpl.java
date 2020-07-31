@@ -23,13 +23,15 @@ import com.dbgeneration.service.ReadStructureDatabase;
 import com.mysql.cj.util.StringUtils;
 
 @Service
-public class ReadStructureDatabaseImpl implements ReadStructureDatabase{
+public class ReadStructureDatabaseImpl implements ReadStructureDatabase {
 
-    private static final Logger logger = LogManager.getLogger(ReadStructureDatabaseImpl.class);
+	private static final Logger logger = LogManager.getLogger(ReadStructureDatabaseImpl.class);
 
-    /**
+	/**
 	 * Read table from database
 	 * 
+	 * @author ntmduyen
+	 * @datetime Jul 31, 2020 - 11:24:34 PM
 	 * @param conn
 	 * @param typeDb
 	 * @return
@@ -57,7 +59,10 @@ public class ReadStructureDatabaseImpl implements ReadStructureDatabase{
 	/**
 	 * Get list of table name
 	 * 
+	 * @author ntmduyen
+	 * @datetime Jul 31, 2020 - 11:24:41 PM
 	 * @param conn
+	 * @param typeDb
 	 * @return
 	 * @throws SQLException
 	 */
@@ -93,10 +98,13 @@ public class ReadStructureDatabaseImpl implements ReadStructureDatabase{
 	/**
 	 * Get column information
 	 * 
+	 * @author ntmduyen
+	 * @datetime Jul 31, 2020 - 11:24:48 PM
 	 * @param conn
+	 * @param typeDb
 	 * @param tableName
 	 * @return
-	 * @throws SQLException 
+	 * @throws SQLException
 	 */
 	private List<Column> getTableColumnsLst(Connection conn, String typeDb, String tableName) throws SQLException {
 		logger.debug("START: getTableColumnsLst().");
@@ -115,7 +123,7 @@ public class ReadStructureDatabaseImpl implements ReadStructureDatabase{
 				tblColumnProperties.setColumnDataType(rs.getString(2));
 				tblColumnProperties.setColumnDataLength(rs.getString(3));
 				tblColumnProperties.setNullable(true);
-				if(rs.getString(4).toLowerCase().equals("no")) {
+				if (rs.getString(4).toLowerCase().equals("no")) {
 					tblColumnProperties.setNullable(false);
 				}
 				tblColumnProperties.setOrdinalPosition(rs.getInt(5));
@@ -137,18 +145,21 @@ public class ReadStructureDatabaseImpl implements ReadStructureDatabase{
 		logger.debug("END: getTableColumnsLst()");
 		return lstColumn;
 	}
-	
+
 	/**
 	 * Get constraint of table
+	 * 
+	 * @author ntmduyen
+	 * @datetime Jul 31, 2020 - 11:24:56 PM
 	 * @param conn
 	 * @param typeDb
 	 * @param tableName
 	 * @return
-	 * @throws SQLException 
+	 * @throws SQLException
 	 */
 	private List<Constraint> getLstTblConstraint(Connection conn, String typeDb, String tableName) throws SQLException {
 		logger.debug("START: getTableConstraintLst()");
-		
+
 		List<Constraint> lstConstraint = new ArrayList<>();
 
 		String sql = ReadStructureDatabaseDAO.getSQLReturnConstraint(typeDb, tableName);
@@ -164,19 +175,19 @@ public class ReadStructureDatabaseImpl implements ReadStructureDatabase{
 				constraint.setConstrainName(rs.getString(2));
 				constraint.setReferenceTable("");
 				constraint.setReferenceColumn("");
-				
-				if(constraint.getConstrainName().substring(0, 1).equals("P")) {
+
+				if (constraint.getConstrainName().substring(0, 1).equals("P")) {
 					constraint.setConstraintType(Constants.PRIMARY_KEY);
 				}
-				
+
 				if (rs.getString(3) != null) {
 					constraint.setReferenceTable(rs.getString(3));
 					constraint.setReferenceColumn(rs.getString(4));
 					constraint.setConstraintType(Constants.FOREIGN_KEY);
 				}
-				
+
 				if (StringUtils.isNullOrEmpty(constraint.getConstraintType())) {
-					if(constraint.getConstrainName().toLowerCase().contains("unique")) {
+					if (constraint.getConstrainName().toLowerCase().contains("unique")) {
 						constraint.setConstraintType(Constants.UNIQUE_CONSTRAINT);
 					} else {
 						constraint.setConstraintType(Constants.CHECK_CONSTRAINT);
@@ -197,9 +208,9 @@ public class ReadStructureDatabaseImpl implements ReadStructureDatabase{
 				rs.close();
 			}
 		}
-		
+
 		logger.debug("END: getTableConstraintLst()");
 		return lstConstraint;
 	}
-	
+
 }
